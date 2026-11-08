@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrochemistry &mdash; KCET &amp; NEET PYQ Portal</title>
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ri6THwFZREBaJ--tZqwryQT-7ZiCxc7fBAsHgXnrhc9SHGi5EgrKFYu5-AzhRynkjktv6_1rqPbx5w3LAGvu-6QrFYXNDVGAjerdH2HCyXNtdodaFvPpXNmbek9c7ofEuvQ5S4Zai87q3q1Fkz23b4_shz42sb2DXagS8b9kM9iYKZp6qUo_JXRGsaTURC-x6P6fnAQ1qlgzFn-EkLH-hrZqbFz46AFIthZRsjCouVMstb6C54QEAbPWOMmQ4XugIQ7fcEUEV_RPUBYsZX1UUxgId_ossFCIscYIZKhVB80I0GOlwJm-b9uTZzsgsj4r5GBFepHGJ3_g83BEC5wlcZcfykdtnmwR2ETc9P4AJLw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jb250cmlidXRpb24udXNlcmNvbnRlbnQuZ29vZ2xlLmNvbS9kb3dubG9hZD9jPUNneGlZWEprWDNOMGIzSmhaMlVTVUJJTmNtVnpjRzl1YzJWZlpHRjBZUm9fQ2pBd05UbGpaR0V6TkRjd1l6UXlNMkZrTURBd05qVm1ZbVl5T0dZd01tVmhZekF5WVRCbE1qRTROREF3TXpaak5XSVNDeElIRUk3NzNmS3BDUmdCJmZpbGVuYW1lPWVsZWN0cm9jaGVtaXN0cnlfc3R1ZHlfcG9ydGFsLmh0bWwmb3BpPTEwMzEzNTA1MA"/><script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    @media print {
+      .no-print { display: none !important; }
+      body { background: #ffffff !important; }
+      .q-card { box-shadow: none !important; border: 1px solid #e2e8f0 !important; break-inside: avoid; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col">
+
+  <!-- Top Sticky Header -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm no-print">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <button id="brandHomeBtn" type="button" class="flex items-center gap-2.5 text-left group">
+          <div class="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-extrabold text-sm shadow-sm group-hover:bg-indigo-700 transition">EC</div>
+          <div>
+            <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">Electrochemistry Study Portal</h1>
+            <p class="text-xs text-slate-500">KCET &amp; NEET PYQ Question Banks &bull; 110 Aligned Questions</p>
+          </div>
+        </button>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl text-xs sm:text-sm font-semibold text-slate-600">
+        <button id="navHomeBtn" type="button" class="px-3 py-1.5 rounded-lg bg-white text-indigo-700 shadow-xs transition">Home Portal</button>
+        <button id="navKcetBtn" type="button" class="px-3 py-1.5 rounded-lg hover:text-slate-900 transition">KCET Bank (45)</button>
+        <button id="navNeetBtn" type="button" class="px-3 py-1.5 rounded-lg hover:text-slate-900 transition">NEET PYQ Bank (65)</button>
+        <button id="navNotesBtn" type="button" class="px-3 py-1.5 rounded-lg hover:text-slate-900 transition">Revision Notes</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-6xl w-full mx-auto px-4 py-6">
+
+    <!-- VIEW 1: HOME PORTAL DASHBOARD -->
+    <section id="homeView" class="space-y-6">
+      <div class="rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 sm:p-8 shadow-md">
+        <span class="inline-block px-3 py-1 bg-white/10 text-indigo-200 text-xs font-semibold rounded-full mb-3 tracking-wide">
+          Complete Chemistry Exam Preparation Portal &bull; NCERT Class 12 Chapter 2
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight mb-2">
+          Electrochemistry: KCET &amp; NEET PYQ Portal
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base max-w-3xl leading-relaxed mb-6">
+          Comprehensive 110 question master preparation bank covering authentic KCET (2014&ndash;2026) and NEET/AIPMT (2000&ndash;2026) papers. Features step-by-step Nernst equations, Kohlrausch calculations, Faraday's laws, dual study modes, and high-yield NCERT revision notes.
+        </p>
+        <div class="flex flex-wrap items-center gap-3">
+          <button id="heroStartKcetBtn" type="button" class="px-5 py-2.5 rounded-xl bg-white text-indigo-950 font-bold text-sm shadow hover:bg-slate-100 transition">
+            Open KCET Bank (45 Qs)
+          </button>
+          <button id="heroStartNeetBtn" type="button" class="px-5 py-2.5 rounded-xl bg-indigo-600 text-white font-bold text-sm shadow hover:bg-indigo-700 transition">
+            Open NEET PYQ Bank (65 Qs)
+          </button>
+          <button id="heroOpenNotesBtn" type="button" class="px-5 py-2.5 rounded-xl bg-slate-800 text-slate-200 font-semibold text-sm hover:bg-slate-700 transition">
+            View Revision Notes
+          </button>
+        </div>
+      </div>
+
+      <!-- Live Statistics & Progress Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
+          <p class="text-xs font-bold text-slate-400 uppercase tracking-wider">TOTAL PORTAL BANK</p>
+          <p class="text-2xl font-extrabold text-slate-900 mt-1">110 Questions</p>
+          <p class="text-xs text-slate-500 mt-1">45 KCET + 65 NEET items</p>
+        </div>
+        <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
+          <p class="text-xs font-bold text-indigo-600 uppercase tracking-wider">KCET PRACTICE PROGRESS</p>
+          <p id="statKcetProgress" class="text-2xl font-extrabold text-indigo-700 mt-1">0 / 45</p>
+          <p id="statKcetScore" class="text-xs text-slate-500 mt-1">Score: 0 correct (0%)</p>
+        </div>
+        <div class="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
+          <p class="text-xs font-bold text-emerald-600 uppercase tracking-wider">NEET PYQ PROGRESS</p>
+          <p id="statNeetProgress" class="text-2xl font-extrabold text-emerald-700 mt-1">0 / 65</p>
+          <p id="statNeetScore" class="text-xs text-slate-500 mt-1">Score: 0 correct (0%)</p>
+        </div>
+      </div>
+
+      <!-- Module Selection Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs flex flex-col justify-between hover:border-amber-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700 text-xs font-bold">Module 1 &bull; Q1&ndash;Q45</span>
+              <span class="text-xs font-semibold text-slate-400">45 MCQs</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">KCET Electrochemistry Question Bank</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-4">
+              Covers concentration effects on E_cell (KCET 2026), Kohlrausch's law for acetic acid (KCET 2026), Cr2O7^2- Faraday reduction charge (KCET 2025), standard reduction potentials and reducing agent trends (KCET 2025), electrolytic conductance dilution trends, and lead storage discharge reactions.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button id="cardKcetDocBtn" type="button" class="flex-1 py-2 rounded-xl bg-indigo-600 text-white font-semibold text-xs hover:bg-indigo-700 transition">Read Question Bank</button>
+            <button id="cardKcetQuizBtn" type="button" class="flex-1 py-2 rounded-xl bg-indigo-50 text-indigo-700 font-semibold text-xs hover:bg-indigo-100 transition">Start Practice Quiz</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs flex flex-col justify-between hover:border-emerald-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 text-xs font-bold">Module 2 &bull; Q1&ndash;Q65</span>
+              <span class="text-xs font-semibold text-slate-400">65 MCQs</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">NEET PYQ Electrochemistry Question Bank</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-4">
+              Includes Re-NEET 2026 (Fe3+/Fe2+ standard potential from free energy, Debye-Hückel slope & limiting molar conductivity for XY), NEET 2024 May (Pt|H2|HCl half-cell potential -0.109V, copper electrolysis mass 0.2938g), NEET 2025 (Ba(OH)2/NH4OH Kohlrausch, reducing strength hierarchy), and AIPMT archive.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <button id="cardNeetDocBtn" type="button" class="flex-1 py-2 rounded-xl bg-emerald-600 text-white font-semibold text-xs hover:bg-emerald-700 transition">Read Question Bank</button>
+            <button id="cardNeetQuizBtn" type="button" class="flex-1 py-2 rounded-xl bg-emerald-50 text-emerald-700 font-semibold text-xs hover:bg-emerald-100 transition">Start Practice Quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: QUESTION BANK VIEW (FOR KCET & NEET) -->
+    <section id="bankView" class="hidden space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-xs">
+        <div>
+          <button id="backToPortalBtn" type="button" class="text-xs font-bold text-amber-600 hover:text-amber-800 flex items-center gap-1 mb-1">
+            &larr; Back to Home Portal
+          </button>
+          <h2 id="bankTitle" class="text-xl font-bold text-slate-900">Question Bank</h2>
+          <p id="bankSubtitle" class="text-xs text-slate-500">Sexual Reproduction in Flowering Plants</p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-bold text-slate-600">
+            <button id="modeDocBtn" type="button" class="px-3 py-1.5 rounded-lg bg-white text-amber-700 shadow-xs transition">Document View</button>
+            <button id="modeQuizBtn" type="button" class="px-3 py-1.5 rounded-lg hover:text-slate-900 transition">Practice Quiz</button>
+          </div>
+
+          <button id="toggleAnswersBtn" type="button" class="px-3 py-1.5 rounded-xl border border-slate-200 text-xs font-semibold bg-white text-slate-700 hover:bg-slate-50 shadow-xs transition">
+            Hide Answer Key
+          </button>
+
+          <button id="printBtn" type="button" class="px-3 py-1.5 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 shadow-xs transition no-print">
+            Print / Save PDF
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Banner (Visible in Quiz Mode) -->
+      <div id="quizBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl p-4 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <p class="text-xs font-bold text-amber-800 uppercase tracking-wider">Practice Quiz Active</p>
+          <p id="quizScoreText" class="text-sm font-semibold text-slate-800 mt-0.5">
+            Attempted: <span id="quizAttempted">0</span> / <span id="quizTotal">0</span> &bull; 
+            Correct: <span id="quizCorrect" class="text-emerald-700">0</span> &bull; 
+            Wrong: <span id="quizWrong" class="text-rose-600">0</span> &bull; 
+            Accuracy: <span id="quizAccuracy">0%</span>
+          </p>
+        </div>
+        <button id="resetQuizBtn" type="button" class="px-3 py-1.5 rounded-lg bg-white border border-amber-300 text-xs font-bold text-amber-700 hover:bg-amber-100 transition">
+          Reset Quiz
+        </button>
+      </div>
+
+      <!-- Filter Sub-toolbar -->
+      <div class="bg-white p-3 rounded-xl border border-slate-200 shadow-xs flex flex-wrap items-center justify-between gap-3">
+        <div class="flex-1 min-w-[200px]">
+          <input id="searchInput" type="text" placeholder="Search pollen, embryo sac, tapetum, endosperm, apomixis..." class="w-full text-xs px-3 py-2 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-500">
+        </div>
+        <div id="topicFilterPills" class="flex flex-wrap items-center gap-1.5 text-xs"></div>
+      </div>
+
+      <!-- Questions List Container -->
+      <div id="questionsContainer" class="space-y-4"></div>
+
+      <!-- Quick Answer Key Matrix -->
+      <div id="quickAnswerMatrix" class="bg-white rounded-xl border border-slate-200 p-5 shadow-xs">
+        <h3 class="text-sm font-bold text-slate-800 mb-3 flex items-center justify-between">
+          <span>Quick Answer Key Matrix</span>
+          <span class="text-xs font-normal text-slate-500">Click any question number to jump</span>
+        </h3>
+        <div id="matrixGrid" class="grid grid-cols-5 sm:grid-cols-10 md:grid-cols-15 gap-2 text-center text-xs"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: REVISION NOTES -->
+    <section id="notesView" class="hidden space-y-6">
+      <div class="flex items-center justify-between bg-white p-4 rounded-xl border border-slate-200 shadow-xs">
+        <div>
+          <button id="notesBackHomeBtn" type="button" class="text-xs font-bold text-amber-600 hover:text-amber-800 flex items-center gap-1 mb-1">
+            &larr; Back to Home Portal
+          </button>
+          <h2 class="text-xl font-bold text-slate-900">High-Yield NCERT Revision Notes</h2>
+          <p class="text-xs text-slate-500">Class 12 Chapter 1: Sexual Reproduction in Flowering Plants</p>
+        </div>
+        <button id="notesPrintBtn" type="button" class="px-3 py-1.5 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 shadow-xs transition no-print">
+          Print Notes
+        </button>
+      </div>
+
+      
+      <!-- Note Section 1: Electrochemical Cells & Nernst Equation -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
+        <h3 class="text-base font-bold text-indigo-900 border-b border-indigo-100 pb-2 mb-4 flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+          1. Galvanic Cells, Standard Electrode Potentials &amp; Nernst Equation
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-700 leading-relaxed">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Daniell Cell &amp; Half-Cell Conventions</h4>
+            <p>&bull; <strong>Anode (Oxidation)</strong>: Zn(s) &rarr; Zn2+(aq) + 2 e- (Negative terminal)<br>
+            &bull; <strong>Cathode (Reduction)</strong>: Cu2+(aq) + 2 e- &rarr; Cu(s) (Positive terminal)<br>
+            &bull; <strong>EMF of Cell</strong>: $E^\circ_{cell} = E^\circ_{cathode} - E^\circ_{anode} = E^\circ_{right} - E^\circ_{left}$<br>
+            &bull; <strong>External Potential ($E_{ext}$)</strong>:<br>
+            - If $E_{ext} < 1.1\text{ V}$: current flows from Cu to Zn.<br>
+            - If $E_{ext} = 1.1\text{ V}$: no electron or current flow.<br>
+            - If $E_{ext} > 1.1\text{ V}$: reaction reverses; acts as an electrolytic cell (Zn deposits, Cu dissolves).</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Nernst Equation &amp; Thermodynamics</h4>
+            <p>&bull; <strong>Nernst Equation (at 298 K)</strong>:<br>
+            $$E_{cell} = E^\circ_{cell} - \frac{0.0591}{n} \log Q_c = E^\circ_{cell} - \frac{2.303 RT}{nF} \log \frac{[\text{Products}]}{[\text{Reactants}]}$$<br>
+            &bull; <strong>Equilibrium Constant ($K_c$)</strong>:<br>
+            $$E^\circ_{cell} = \frac{0.0591}{n} \log K_c \implies \log K_c = \frac{n E^\circ_{cell}}{0.0591}$$<br>
+            &bull; <strong>Gibbs Free Energy</strong>:<br>
+            $$\Delta G^\circ = -n F E^\circ_{cell} = -2.303 RT \log K_c$$<br>
+            (Spontaneous reaction requires $\Delta G^\circ < 0$ and $E^\circ_{cell} > 0$).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Note Section 2: Conductance & Kohlrausch's Law -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
+        <h3 class="text-base font-bold text-indigo-900 border-b border-indigo-100 pb-2 mb-4 flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+          2. Conductance, Cell Constant &amp; Kohlrausch's Law of Independent Migration
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-700 leading-relaxed">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Conductivity Metrics &amp; Units</h4>
+            <p>&bull; <strong>Conductance ($G$)</strong>: $G = 1/R$ (Unit: $\Omega^{-1}$, S or mho)<br>
+            &bull; <strong>Conductivity ($\kappa$)</strong>: $\kappa = G \cdot \frac{l}{A} = \frac{G^*}{R}$ (Unit: $\text{S cm}^{-1}$ or $\text{S m}^{-1}$)<br>
+            &bull; <strong>Cell Constant ($G^*$)</strong>: $G^* = l / A$ (Unit: $\text{cm}^{-1}$ or $\text{m}^{-1}$)<br>
+            &bull; <strong>Molar Conductivity ($\Lambda_m$)</strong>: $\Lambda_m = \frac{\kappa \times 1000}{M}$ (Unit: $\text{S cm}^2\text{ mol}^{-1}$)<br>
+            &bull; <strong>Dilution Effect</strong>: Upon dilution, $\kappa$ <em>decreases</em> (fewer ions per unit volume) while $\Lambda_m$ <em>increases</em> for both strong and weak electrolytes.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Debye-Hückel-Onsager &amp; Kohlrausch's Law</h4>
+            <p>&bull; <strong>Strong Electrolytes</strong>: $\Lambda_m = \Lambda^\circ_m - A \sqrt{c}$ (Linear plot with negative slope $-A$).<br>
+            &bull; <strong>Kohlrausch's Law</strong>: $\Lambda^\circ_m(A_x B_y) = x \lambda^\circ_+ + y \lambda^\circ_-$<br>
+            - For Acetic Acid: $\Lambda^\circ_m(\text{CH}_3\text{COOH}) = \Lambda^\circ_m(\text{CH}_3\text{COONa}) + \Lambda^\circ_m(\text{HCl}) - \Lambda^\circ_m(\text{NaCl})$<br>
+            &bull; <strong>Degree of Dissociation ($\alpha$)</strong>: $\alpha = \frac{\Lambda_m}{\Lambda^\circ_m}$<br>
+            &bull; <strong>Dissociation Constant ($K_a$)</strong>: $K_a = \frac{c \alpha^2}{1 - \alpha} = \frac{c (\Lambda_m)^2}{\Lambda^\circ_m (\Lambda^\circ_m - \Lambda_m)}$</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Note Section 3: Electrolysis, Batteries & Corrosion -->
+      <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
+        <h3 class="text-base font-bold text-indigo-900 border-b border-indigo-100 pb-2 mb-4 flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+          3. Faraday's Laws of Electrolysis, Batteries, Fuel Cells &amp; Corrosion
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs text-slate-700 leading-relaxed">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Faraday's Laws</h4>
+            <p>&bull; <strong>1st Law</strong>: $w = Z \cdot I \cdot t = \frac{E}{96500} \cdot Q$<br>
+            &bull; <strong>2nd Law</strong>: $\frac{w_1}{w_2} = \frac{E_1}{E_2}$ (when same current is passed in series)<br>
+            &bull; $1\text{ Faraday} = 96,487\text{ C} \approx 96,500\text{ C mol}^{-1}$ (charge on 1 mole of electrons).<br>
+            &bull; Electrolysis of aqueous NaCl: $H_2$ at cathode, $Cl_2$ at anode (due to $O_2$ overpotential), and NaOH in solution.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Primary &amp; Secondary Batteries</h4>
+            <p>&bull; <strong>Dry Cell</strong>: Zn anode, graphite cathode; paste of $\text{MnO}_2 + \text{NH}_4\text{Cl}$; voltage 1.5 V.<br>
+            &bull; <strong>Mercury Cell</strong>: Constant 1.35 V (no ions in overall reaction: $\text{Zn(Hg)} + \text{HgO} \rightarrow \text{ZnO} + \text{Hg}$).<br>
+            &bull; <strong>Lead Storage Battery (Discharge)</strong>:<br>
+            Anode: $\text{Pb} + \text{SO}_4^{2-} \rightarrow \text{PbSO}_4 + 2e^-$<br>
+            Cathode: $\text{PbO}_2 + \text{SO}_4^{2-} + 4\text{H}^+ + 2e^- \rightarrow \text{PbSO}_4 + 2\text{H}_2\text{O}$<br>
+            $\text{H}_2\text{SO}_4$ density drops during discharge.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+            <h4 class="font-bold text-slate-900 mb-1">Fuel Cells &amp; Rusting</h4>
+            <p>&bull; <strong>$H_2-O_2$ Fuel Cell</strong>: Converts combustion energy directly into electricity. Overall: $2\text{H}_2 + \text{O}_2 \rightarrow 2\text{H}_2\text{O}$; $\eta \approx 70\%$.<br>
+            &bull; <strong>Corrosion of Iron (Rusting)</strong>:<br>
+            Anode: $2\text{Fe} \rightarrow 2\text{Fe}^{2+} + 4e^-$<br>
+            Cathode: $\text{O}_2 + 4\text{H}^+ + 4e^- \rightarrow 2\text{H}_2\text{O}$<br>
+            Rust: $\text{Fe}_2\text{O}_3 \cdot x\text{H}_2\text{O}$<br>
+            &bull; <strong>Protection</strong>: Galvanization (sacrificial Zn coating), cathodic protection (Mg/Zn blocks).</p>
+          </div>
+        </div>
+      </div>
+</section>
+
+  </main>
+
+  <!-- Interactive JavaScript Engine -->
+  <script>
+
+    
+    const KCET_DATA = [{"num": 1, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2026", "stem": "For the cell reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s), if the concentration of Zn2+ is increased by a factor of 10 while keeping Cu2+ constant at 298 K, the cell potential (E_cell) will:", "options": [{"marker": "A", "text": "Increase by 0.0591 V"}, {"marker": "B", "text": "Decrease by 0.0295 V"}, {"marker": "C", "text": "Increase by 0.0295 V"}, {"marker": "D", "text": "Remain unchanged"}], "answerIndex": 1, "explanation": "According to the Nernst equation: E_cell = E\u00b0_cell - (0.0591/2) * log([Zn2+]/[Cu2+]). If [Zn2+] increases 10-fold, the logarithmic term increases by log(10) = 1. Thus, E_cell decreases by (0.0591 / 2) = 0.0295 V."}, {"num": 2, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2026", "stem": "The limiting molar conductivities (Lambda\u00b0_m) of NaCl, HCl, and CH3COONa are 126.4, 425.9, and 91.0 S cm2 mol-1 respectively at 298 K. The limiting molar conductivity of acetic acid (CH3COOH) is:", "options": [{"marker": "A", "text": "516.9 S cm2 mol-1"}, {"marker": "B", "text": "390.5 S cm2 mol-1"}, {"marker": "C", "text": "425.9 S cm2 mol-1"}, {"marker": "D", "text": "208.5 S cm2 mol-1"}], "answerIndex": 1, "explanation": "By Kohlrausch's law of independent migration of ions: Lambda\u00b0_m(CH3COOH) = Lambda\u00b0_m(CH3COONa) + Lambda\u00b0_m(HCl) - Lambda\u00b0_m(NaCl) = 91.0 + 425.9 - 126.4 = 390.5 S cm2 mol-1."}, {"num": 3, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2025", "stem": "How many coulombs of electricity are required for the complete reduction of 1 mole of Cr2O7^2- to Cr3+ in acidic medium?", "options": [{"marker": "A", "text": "193,000 C"}, {"marker": "B", "text": "289,500 C"}, {"marker": "C", "text": "579,000 C"}, {"marker": "D", "text": "96,500 C"}], "answerIndex": 2, "explanation": "The reduction half-reaction in acidic medium is: Cr2O7^2- + 14 H+ + 6 e- -> 2 Cr3+ + 7 H2O. Reduction of 1 mole of Cr2O7^2- requires 6 moles of electrons = 6 Faradays = 6 * 96,500 C = 579,000 C."}, {"num": 4, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2025", "stem": "The standard reduction potentials of four metals A, B, C, and D are -0.76 V, +0.34 V, -2.37 V, and +0.80 V respectively. The strongest reducing agent among them is:", "options": [{"marker": "A", "text": "Metal A"}, {"marker": "B", "text": "Metal B"}, {"marker": "C", "text": "Metal C"}, {"marker": "D", "text": "Metal D"}], "answerIndex": 2, "explanation": "The lower (more negative) the standard reduction potential, the greater is the tendency of the element to lose electrons (get oxidised), and hence the stronger it is as a reducing agent. Metal C with E\u00b0 = -2.37 V is the strongest reducing agent."}, {"num": 5, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2024", "stem": "Upon dilution of an electrolytic solution, what happens to specific conductivity (kappa) and molar conductivity (Lambda_m)?", "options": [{"marker": "A", "text": "Both kappa and Lambda_m increase"}, {"marker": "B", "text": "Both kappa and Lambda_m decrease"}, {"marker": "C", "text": "kappa decreases while Lambda_m increases"}, {"marker": "D", "text": "kappa increases while Lambda_m decreases"}], "answerIndex": 2, "explanation": "Specific conductivity (kappa) decreases upon dilution because the number of current-carrying ions per unit volume of solution decreases. Molar conductivity (Lambda_m = kappa * 1000 / M) increases because the increase in volume containing one mole of electrolyte more than compensates for the decrease in kappa."}, {"num": 6, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2024", "stem": "During the electrolysis of dilute aqueous H2SO4 using inert platinum electrodes, the product liberated at the anode is:", "options": [{"marker": "A", "text": "H2 gas"}, {"marker": "B", "text": "O2 gas"}, {"marker": "C", "text": "SO2 gas"}, {"marker": "D", "text": "H2S2O8 (Peroxodisulphuric acid)"}], "answerIndex": 1, "explanation": "In dilute sulfuric acid, water is oxidized at the anode in preference to sulfate ions due to overpotential: 2 H2O -> O2(g) + 4 H+ + 4 e- (E\u00b0 = +1.23 V). At the cathode, H+ is reduced to H2 gas."}, {"num": 7, "topic": "Batteries & Corrosion", "tag": "KCET 2023", "stem": "In a lead storage battery during discharging, the chemical reaction taking place at the cathode is:", "options": [{"marker": "A", "text": "Pb(s) + SO4^2-(aq) -> PbSO4(s) + 2 e-"}, {"marker": "B", "text": "PbO2(s) + SO4^2-(aq) + 4 H+(aq) + 2 e- -> PbSO4(s) + 2 H2O(l)"}, {"marker": "C", "text": "PbSO4(s) + 2 e- -> Pb(s) + SO4^2-(aq)"}, {"marker": "D", "text": "2 PbSO4(s) + 2 H2O(l) -> Pb(s) + PbO2(s) + 2 H2SO4(aq)"}], "answerIndex": 1, "explanation": "At the cathode (reduction) of a lead storage battery during discharge: PbO2(s) + SO4^2-(aq) + 4 H+(aq) + 2 e- -> PbSO4(s) + 2 H2O(l). At the anode, Pb is oxidized to PbSO4."}, {"num": 8, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2023", "stem": "The relationship between standard Gibbs energy change (Delta G\u00b0) and equilibrium constant (K) of a galvanic cell reaction is:", "options": [{"marker": "A", "text": "Delta G\u00b0 = -RT ln K"}, {"marker": "B", "text": "Delta G\u00b0 = RT ln K"}, {"marker": "C", "text": "Delta G\u00b0 = -nFE\u00b0_cell"}, {"marker": "D", "text": "Delta G\u00b0 = -RT / ln K"}], "answerIndex": 0, "explanation": "Thermodynamically, Delta G\u00b0 = -RT ln K = -2.303 RT log K. Also, Delta G\u00b0 = -n F E\u00b0_cell, leading to E\u00b0_cell = (2.303 RT / nF) log K."}, {"num": 9, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2022", "stem": "The unit of cell constant (G*) of a conductivity cell is:", "options": [{"marker": "A", "text": "S cm-1"}, {"marker": "B", "text": "cm-1 (or m-1)"}, {"marker": "C", "text": "ohm cm"}, {"marker": "D", "text": "S cm2 mol-1"}], "answerIndex": 1, "explanation": "Cell constant G* = l / A, where l is distance between electrodes (cm) and A is cross-sectional area (cm2). Thus, unit is cm / cm2 = cm-1 (or m-1 in SI)."}, {"num": 10, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2022", "stem": "A steady current of 2 amperes is passed through a solution of AgNO3 for 16 minutes and 5 seconds. The mass of silver deposited at the cathode is: [Molar mass of Ag = 108 g mol-1, 1 F = 96500 C mol-1]", "options": [{"marker": "A", "text": "1.08 g"}, {"marker": "B", "text": "2.16 g"}, {"marker": "C", "text": "0.54 g"}, {"marker": "D", "text": "4.32 g"}], "answerIndex": 1, "explanation": "Time t = 16 min 5 s = (16 * 60) + 5 = 965 s. Quantity of charge Q = I * t = 2 A * 965 s = 1930 C. Reaction: Ag+ + e- -> Ag. 96500 C deposits 108 g. Mass deposited = (108 / 96500) * 1930 = 2.16 g."}, {"num": 11, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2021", "stem": "For a weak electrolyte acetic acid, the degree of dissociation (alpha) at concentration 'c' is related to molar conductivities by:", "options": [{"marker": "A", "text": "alpha = Lambda_m / Lambda\u00b0_m"}, {"marker": "B", "text": "alpha = Lambda\u00b0_m / Lambda_m"}, {"marker": "C", "text": "alpha = sqrt(Lambda_m / Lambda\u00b0_m)"}, {"marker": "D", "text": "alpha = (Lambda_m)^2 / Lambda\u00b0_m"}], "answerIndex": 0, "explanation": "According to Arrhenius and Kohlrausch's law, degree of dissociation alpha = Lambda_m(c) / Lambda\u00b0_m."}, {"num": 12, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2021", "stem": "In the electrochemical cell Representation: Zn(s) | Zn2+(aq) || Cu2+(aq) | Cu(s), the salt bridge functions to:", "options": [{"marker": "A", "text": "Participate directly in redox reactions"}, {"marker": "B", "text": "Maintain electrical neutrality of the electrolyte solutions and complete the internal circuit"}, {"marker": "C", "text": "Increase the cell potential indefinitely"}, {"marker": "D", "text": "Prevent flow of electrons through the external wire"}], "answerIndex": 1, "explanation": "A salt bridge contains an inert electrolyte (e.g. KCl, KNO3 in agar-agar) that allows migration of ions between half-cells to neutralize accumulating charges, preventing liquid junction potential and completing the circuit."}, {"num": 13, "topic": "Batteries & Corrosion", "tag": "KCET 2020", "stem": "Which of the following acts as the negative electrode (anode) in a dry Leclanch\u00e9 cell?", "options": [{"marker": "A", "text": "Zinc cylinder container"}, {"marker": "B", "text": "Carbon (graphite) rod"}, {"marker": "C", "text": "Manganese dioxide"}, {"marker": "D", "text": "Paste of NH4Cl and ZnCl2"}], "answerIndex": 0, "explanation": "In a dry cell, the zinc container acts as the anode: Zn(s) -> Zn2+ + 2 e-. A graphite rod surrounded by powdered MnO2 and carbon black serves as the cathode."}, {"num": 14, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2020", "stem": "When molten NaCl is electrolyzed using inert electrodes, the products at cathode and anode are respectively:", "options": [{"marker": "A", "text": "Sodium metal and Chlorine gas"}, {"marker": "B", "text": "Hydrogen gas and Chlorine gas"}, {"marker": "C", "text": "Sodium metal and Oxygen gas"}, {"marker": "D", "text": "Hydrogen gas and Oxygen gas"}], "answerIndex": 0, "explanation": "In molten NaCl, there is no water. Only Na+ and Cl- ions are present. At cathode: Na+ + e- -> Na(l). At anode: 2 Cl- -> Cl2(g) + 2 e-."}, {"num": 15, "topic": "Batteries & Corrosion", "tag": "KCET 2019", "stem": "Rusting of iron is an electrochemical phenomenon. The anode reaction in rusting is:", "options": [{"marker": "A", "text": "Fe(s) -> Fe2+(aq) + 2 e-"}, {"marker": "B", "text": "O2(g) + 4 H+(aq) + 4 e- -> 2 H2O(l)"}, {"marker": "C", "text": "Fe2+(aq) + 2 e- -> Fe(s)"}, {"marker": "D", "text": "Fe3+(aq) + e- -> Fe2+(aq)"}], "answerIndex": 0, "explanation": "At a particular spot of iron object, oxidation takes place and that spot behaves as anode: 2 Fe(s) -> 2 Fe2+ + 4 e- (E\u00b0 = -0.44 V). Electrons released move through the metal to another spot which acts as cathode where O2 is reduced in the presence of H+."}, {"num": 16, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2019", "stem": "The standard electrode potential for the Daniell cell is 1.1 V. If an external opposing potential (E_ext) greater than 1.1 V is applied, what happens?", "options": [{"marker": "A", "text": "Electrons flow from Zn to Cu and cell functions normally"}, {"marker": "B", "text": "No current flows through the circuit"}, {"marker": "C", "text": "Electrons flow from Cu to Zn and current flows from Zn to Cu (acts as an electrolytic cell)"}, {"marker": "D", "text": "Zinc continues to dissolve at anode"}], "answerIndex": 2, "explanation": "When E_ext > 1.1 V, the direction of reaction reverses. The cell functions as an electrolytic cell: electrons flow from Cu to Zn, Zn is deposited on the zinc electrode, and Cu dissolves from the copper electrode."}, {"num": 17, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2018", "stem": "The electrical resistance of a column of 0.05 M NaOH solution of diameter 1 cm and length 50 cm is 5.55 * 10^3 ohm. Its resistivity (rho) is approximately:", "options": [{"marker": "A", "text": "87.135 ohm cm"}, {"marker": "B", "text": "43.56 ohm cm"}, {"marker": "C", "text": "110.2 ohm cm"}, {"marker": "D", "text": "0.011 ohm cm"}], "answerIndex": 0, "explanation": "Radius r = 0.5 cm. Cross-sectional area A = pi * r^2 = 3.14 * (0.5)^2 = 0.785 cm2. Length l = 50 cm. Resistivity rho = R * A / l = (5.55 * 10^3 * 0.785) / 50 = 87.135 ohm cm."}, {"num": 18, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2018", "stem": "The number of electrons required to deposit 40 g of calcium from molten CaCl2 is: [Molar mass of Ca = 40 g mol-1, N_A = Avogadro's constant]", "options": [{"marker": "A", "text": "N_A"}, {"marker": "B", "text": "2 N_A"}, {"marker": "C", "text": "0.5 N_A"}, {"marker": "D", "text": "4 N_A"}], "answerIndex": 1, "explanation": "40 g of Ca = 1 mole of Ca. Reaction: Ca2+ + 2 e- -> Ca(s). Depositing 1 mole of Ca requires 2 moles of electrons = 2 * N_A electrons."}, {"num": 19, "topic": "Batteries & Corrosion", "tag": "KCET 2017", "stem": "In the Hydrogen-Oxygen fuel cell used in the Apollo space programme, the overall chemical reaction is:", "options": [{"marker": "A", "text": "2 H2(g) + O2(g) -> 2 H2O(l)"}, {"marker": "B", "text": "H2 + OH- -> H2O + e-"}, {"marker": "C", "text": "O2 + 2 H2O + 4 e- -> 4 OH-"}, {"marker": "D", "text": "2 H2O -> 2 H2 + O2"}], "answerIndex": 0, "explanation": "In an H2-O2 fuel cell, hydrogen is fed at anode and oxygen at cathode with concentrated aqueous NaOH electrolyte. The overall reaction is: 2 H2(g) + O2(g) -> 2 H2O(l) with ~70% thermodynamic efficiency."}, {"num": 20, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2017", "stem": "The standard potential of a hydrogen electrode (SHE) is arbitrarily taken as zero at all temperatures because:", "options": [{"marker": "A", "text": "Hydrogen is the lightest element"}, {"marker": "B", "text": "It has been chosen as a universal reference electrode"}, {"marker": "C", "text": "Hydrogen cannot lose or gain electrons"}, {"marker": "D", "text": "Hydrogen ion has zero charge in water"}], "answerIndex": 1, "explanation": "By international convention, the standard hydrogen electrode (SHE: Pt(s) | H2(g, 1 bar) | H+(aq, 1 M)) is assigned a potential of exactly 0.00 V at all temperatures to act as a reference for all other half-cells."}, {"num": 21, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2016", "stem": "Which of the following plots represents the variation of molar conductivity (Lambda_m) with square root of concentration (sqrt(c)) for a weak electrolyte like acetic acid?", "options": [{"marker": "A", "text": "A curve that steepens sharply asymptotically at very low concentrations"}, {"marker": "B", "text": "A straight line with negative slope following Debye-H\u00fcckel-Onsager equation"}, {"marker": "C", "text": "A horizontal straight line independent of concentration"}, {"marker": "D", "text": "A curve with positive slope"}], "answerIndex": 0, "explanation": "For weak electrolytes, molar conductivity increases moderately with decrease in concentration, but near infinite dilution (c -> 0) it increases exponentially/sharply due to complete ionization (alpha -> 1). It cannot be extrapolated to zero concentration on a linear plot."}, {"num": 22, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET 2016", "stem": "According to Faraday's Second Law of Electrolysis, when the same quantity of electricity is passed through solutions of different electrolytes, the masses of substances liberated are proportional to their:", "options": [{"marker": "A", "text": "Atomic numbers"}, {"marker": "B", "text": "Chemical equivalent weights"}, {"marker": "C", "text": "Densities"}, {"marker": "D", "text": "Molar conductivities"}], "answerIndex": 1, "explanation": "Faraday's second law states: m1 / m2 = E1 / E2, where E is the chemical equivalent weight (Molar mass / valency factor)."}, {"num": 23, "topic": "Batteries & Corrosion", "tag": "KCET 2015", "stem": "Galvanization of iron sheets involves coating the surface of iron with a layer of:", "options": [{"marker": "A", "text": "Zinc"}, {"marker": "B", "text": "Tin"}, {"marker": "C", "text": "Nickel"}, {"marker": "D", "text": "Chromium"}], "answerIndex": 0, "explanation": "Galvanization is the process of coating iron with sacrificial zinc (E\u00b0_Zn2+/Zn = -0.76 V vs E\u00b0_Fe2+/Fe = -0.44 V). Even if scratches occur, zinc oxidizes preferentially, protecting the iron underneath."}, {"num": 24, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET 2015", "stem": "For a cell reaction to be spontaneous under standard conditions, which condition must be satisfied?", "options": [{"marker": "A", "text": "Delta G\u00b0 < 0 and E\u00b0_cell > 0"}, {"marker": "B", "text": "Delta G\u00b0 > 0 and E\u00b0_cell < 0"}, {"marker": "C", "text": "Delta G\u00b0 = 0 and E\u00b0_cell = 0"}, {"marker": "D", "text": "Delta G\u00b0 < 0 and E\u00b0_cell < 0"}], "answerIndex": 0, "explanation": "Since Delta G\u00b0 = -n F E\u00b0_cell, for a spontaneous process Delta G\u00b0 must be negative, which requires standard EMF E\u00b0_cell to be positive."}, {"num": 25, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET 2014", "stem": "The electrolytic conductivity of a 0.20 M solution of KCl at 298 K is 0.0248 S cm-1. Its molar conductivity (Lambda_m) is:", "options": [{"marker": "A", "text": "124 S cm2 mol-1"}, {"marker": "B", "text": "12.4 S cm2 mol-1"}, {"marker": "C", "text": "248 S cm2 mol-1"}, {"marker": "D", "text": "62 S cm2 mol-1"}], "answerIndex": 0, "explanation": "Lambda_m = (kappa * 1000) / Molarity = (0.0248 * 1000) / 0.20 = 24.8 / 0.20 = 124 S cm2 mol-1."}, {"num": 26, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "The EMF of a galvanic cell with reaction: Cu(s) + 2 Ag+(aq) -> Cu2+(aq) + 2 Ag(s) is 0.46 V. What is the value of standard equilibrium constant K at 298 K? (Take 2.303 RT/F = 0.0591)", "options": [{"marker": "A", "text": "3.92 * 10^15"}, {"marker": "B", "text": "1.0 * 10^10"}, {"marker": "C", "text": "4.6 * 10^8"}, {"marker": "D", "text": "2.0 * 10^12"}], "answerIndex": 0, "explanation": "E\u00b0_cell = (0.0591 / n) * log K -> 0.46 = (0.0591 / 2) * log K -> log K = (0.46 * 2) / 0.0591 = 15.566 -> K = 10^15.566 = 3.92 * 10^15."}, {"num": 27, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET PYQ", "stem": "How many Faradays of electricity are passed when 0.1 mol of MnO4- is converted to Mn2+?", "options": [{"marker": "A", "text": "0.1 F"}, {"marker": "B", "text": "0.5 F"}, {"marker": "C", "text": "1.0 F"}, {"marker": "D", "text": "5.0 F"}], "answerIndex": 1, "explanation": "MnO4- + 8 H+ + 5 e- -> Mn2+ + 4 H2O. 1 mole of MnO4- requires 5 moles of electrons (5 F). For 0.1 mole of MnO4-, charge needed = 0.1 * 5 = 0.5 F."}, {"num": 28, "topic": "Batteries & Corrosion", "tag": "KCET PYQ", "stem": "Which of the following is a secondary cell that can be recharged by passing electric current in the opposite direction?", "options": [{"marker": "A", "text": "Mercury cell"}, {"marker": "B", "text": "Leclanch\u00e9 dry cell"}, {"marker": "C", "text": "Nickel-Cadmium cell"}, {"marker": "D", "text": "Hydrogen-oxygen fuel cell"}], "answerIndex": 2, "explanation": "Nickel-Cadmium (Ni-Cd) cell and lead storage battery are secondary cells that can be recharged and reused. Leclanch\u00e9 and mercury cells are primary (non-rechargeable) cells."}, {"num": 29, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "A copper spoon is to be electroplated with silver. The spoon should be made:", "options": [{"marker": "A", "text": "Cathode and silver rod as anode"}, {"marker": "B", "text": "Anode and silver rod as cathode"}, {"marker": "C", "text": "Either anode or cathode"}, {"marker": "D", "text": "Electrolyte solution"}], "answerIndex": 0, "explanation": "In electroplating, the article to be electroplated is made the cathode (negative electrode) so that metal cations (Ag+) gain electrons and deposit as metallic silver: Ag+ + e- -> Ag(s). Pure silver metal is made the anode."}, {"num": 30, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET PYQ", "stem": "The Debye-H\u00fcckel-Onsager equation for strong electrolytes in dilute solution is given by:", "options": [{"marker": "A", "text": "Lambda_m = Lambda\u00b0_m - A * sqrt(c)"}, {"marker": "B", "text": "Lambda_m = Lambda\u00b0_m + A * sqrt(c)"}, {"marker": "C", "text": "Lambda_m = Lambda\u00b0_m * c"}, {"marker": "D", "text": "Lambda_m = A * sqrt(c) / Lambda\u00b0_m"}], "answerIndex": 0, "explanation": "For strong electrolytes, molar conductivity decreases linearly with sqrt(c) in dilute solutions following: Lambda_m = Lambda\u00b0_m - A * sqrt(c), where A is a constant dependent on the type of electrolyte, solvent, and temperature."}, {"num": 31, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "The standard reduction potential E\u00b0 for Cl2/Cl- is +1.36 V, Br2/Br- is +1.09 V, and I2/I- is +0.54 V. Which of the following halogens can oxidise bromide (Br-) to bromine (Br2)?", "options": [{"marker": "A", "text": "Chlorine (Cl2)"}, {"marker": "B", "text": "Iodine (I2)"}, {"marker": "C", "text": "Both Chlorine and Iodine"}, {"marker": "D", "text": "Neither Chlorine nor Iodine"}], "answerIndex": 0, "explanation": "A species with a higher reduction potential can oxidize the reduced form of a species with a lower reduction potential. Since E\u00b0(Cl2/Cl-) = +1.36 V > E\u00b0(Br2/Br-) = +1.09 V, Cl2 will oxidize Br- to Br2."}, {"num": 32, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET PYQ", "stem": "During electrolysis of an aqueous solution of NaCl, the reaction occurring at the cathode is:", "options": [{"marker": "A", "text": "Na+(aq) + e- -> Na(s)"}, {"marker": "B", "text": "H2O(l) + e- -> 1/2 H2(g) + OH-(aq)"}, {"marker": "C", "text": "Cl-(aq) -> 1/2 Cl2(g) + e-"}, {"marker": "D", "text": "2 H2O -> O2 + 4 H+ + 4 e-"}], "answerIndex": 1, "explanation": "At the cathode, the reduction of H2O (E\u00b0 = -0.83 V, or H+ reduction E\u00b0 = 0.0 V) is favored over Na+ reduction (E\u00b0 = -2.71 V). Hence, H2 gas is evolved at cathode."}, {"num": 33, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET PYQ", "stem": "Which of the following has the highest electrical molar conductivity at infinite dilution in aqueous solution?", "options": [{"marker": "A", "text": "H+ ion"}, {"marker": "B", "text": "Na+ ion"}, {"marker": "C", "text": "K+ ion"}, {"marker": "D", "text": "OH- ion"}], "answerIndex": 0, "explanation": "H+ has the highest limiting molar conductivity (~349.6 S cm2 mol-1 at 298 K) in aqueous solution due to the Grotthuss proton-jumping mechanism through hydrogen-bonded water networks."}, {"num": 34, "topic": "Batteries & Corrosion", "tag": "KCET PYQ", "stem": "The electrolyte used in the mercury button cell is a paste of:", "options": [{"marker": "A", "text": "KOH and ZnO"}, {"marker": "B", "text": "NH4Cl and ZnCl2"}, {"marker": "C", "text": "H2SO4 and PbSO4"}, {"marker": "D", "text": "Ni(OH)2 and CdO"}], "answerIndex": 0, "explanation": "The mercury cell consists of zinc-mercury amalgam as anode, a paste of HgO and carbon as cathode, and a moist paste of KOH and ZnO as electrolyte."}, {"num": 35, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "If the E\u00b0_cell of a galvanic cell is negative, what can be deduced about the cell reaction?", "options": [{"marker": "A", "text": "Reaction is non-spontaneous in forward direction and Delta G\u00b0 > 0"}, {"marker": "B", "text": "Reaction is spontaneous in forward direction"}, {"marker": "C", "text": "Equilibrium constant K > 1"}, {"marker": "D", "text": "Cell delivers electric current spontaneously"}], "answerIndex": 0, "explanation": "Delta G\u00b0 = -nFE\u00b0_cell. If E\u00b0_cell is negative, Delta G\u00b0 is positive, indicating that the forward reaction is non-spontaneous and requires an external potential to proceed."}, {"num": 36, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET PYQ", "stem": "The apparatus used to measure the electrical resistance of an ionic solution accurately is:", "options": [{"marker": "A", "text": "Wheatstone bridge with an AC source (audio frequency)"}, {"marker": "B", "text": "Wheatstone bridge with a DC battery"}, {"marker": "C", "text": "Potentiometer with DC source"}, {"marker": "D", "text": "Galvanometer connected directly"}], "answerIndex": 0, "explanation": "To measure resistance of an electrolyte, alternating current (AC) is used to prevent electrolysis and changes in solution composition, and a Wheatstone bridge with a suitable detector is employed."}, {"num": 37, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET PYQ", "stem": "How many moles of Al will be deposited by passing 3 Faradays of electricity through molten Al2O3?", "options": [{"marker": "A", "text": "1 mole"}, {"marker": "B", "text": "3 moles"}, {"marker": "C", "text": "0.5 mole"}, {"marker": "D", "text": "2 moles"}], "answerIndex": 0, "explanation": "Al3+ + 3 e- -> Al(s). 3 moles of electrons (3 Faradays) deposit exactly 1 mole of aluminum."}, {"num": 38, "topic": "Batteries & Corrosion", "tag": "KCET PYQ", "stem": "During recharging of a lead storage battery, the reaction occurring at the cathode is:", "options": [{"marker": "A", "text": "Reduction of PbSO4 to Pb: PbSO4(s) + 2 e- -> Pb(s) + SO4^2-(aq)"}, {"marker": "B", "text": "Oxidation of Pb to PbSO4"}, {"marker": "C", "text": "Oxidation of PbSO4 to PbO2"}, {"marker": "D", "text": "Reduction of PbO2 to PbSO4"}], "answerIndex": 0, "explanation": "During recharge, the cell operates electrolytically with polarity reversed: at the cathode (connected to negative terminal of charger), PbSO4 is reduced back to metallic lead (Pb)."}, {"num": 39, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "What is the cell potential of a concentration cell consisting of two hydrogen electrodes dipped in solutions of pH = 3 and pH = 5 at 298 K under 1 bar H2 pressure?", "options": [{"marker": "A", "text": "0.0591 V"}, {"marker": "B", "text": "0.118 V"}, {"marker": "C", "text": "0.0295 V"}, {"marker": "D", "text": "0.00 V"}], "answerIndex": 1, "explanation": "For a hydrogen concentration cell: E_cell = 0.0591 * (pH2 - pH1) = 0.0591 * (5 - 3) = 0.0591 * 2 = 0.1182 V."}, {"num": 40, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET PYQ", "stem": "Which of the following solutions of KCl will exhibit the highest specific conductivity (kappa)?", "options": [{"marker": "A", "text": "1.0 M KCl"}, {"marker": "B", "text": "0.1 M KCl"}, {"marker": "C", "text": "0.01 M KCl"}, {"marker": "D", "text": "0.001 M KCl"}], "answerIndex": 0, "explanation": "Specific conductivity (conductivity per unit volume) increases with increasing concentration because there are more ions per cm3 to carry current. Thus, 1.0 M KCl has the highest kappa."}, {"num": 41, "topic": "Faraday's Laws of Electrolysis", "tag": "KCET PYQ", "stem": "The electrochemical equivalent (Z) of a metal is 0.000329 g C-1. Its equivalent mass is approximately:", "options": [{"marker": "A", "text": "31.75 g"}, {"marker": "B", "text": "63.5 g"}, {"marker": "C", "text": "108 g"}, {"marker": "D", "text": "27 g"}], "answerIndex": 0, "explanation": "Equivalent weight E = Z * F = 0.000329 * 96500 = 31.7485 g (equivalent weight of copper, Cu2+)."}, {"num": 42, "topic": "Batteries & Corrosion", "tag": "KCET PYQ", "stem": "Why does a mercury button cell provide an exceptionally constant voltage of 1.35 V throughout its functional life?", "options": [{"marker": "A", "text": "The overall cell reaction does not involve any ions in solution whose concentration can change"}, {"marker": "B", "text": "Mercury has zero electrical resistance"}, {"marker": "C", "text": "Zinc continuously regenerates"}, {"marker": "D", "text": "The electrolyte is completely non-polar"}], "answerIndex": 0, "explanation": "The overall reaction is: Zn(Hg) + HgO(s) -> ZnO(s) + Hg(l). Since all reactants and products are solids or liquids and no ionic concentrations in solution change, its potential remains steady at 1.35 V."}, {"num": 43, "topic": "Electrochemical Cells & Nernst Equation", "tag": "KCET PYQ", "stem": "For the half-cell reaction Fe3+ + e- -> Fe2+, the potential at 298 K when [Fe2+] / [Fe3+] = 10 is: (Given E\u00b0 = +0.771 V)", "options": [{"marker": "A", "text": "+0.712 V"}, {"marker": "B", "text": "+0.830 V"}, {"marker": "C", "text": "+0.771 V"}, {"marker": "D", "text": "+0.653 V"}], "answerIndex": 0, "explanation": "E = E\u00b0 - 0.0591 * log([Fe2+]/[Fe3+]) = 0.771 - 0.0591 * log(10) = 0.771 - 0.0591 = +0.7119 V."}, {"num": 44, "topic": "Conductance & Kohlrausch's Law", "tag": "KCET PYQ", "stem": "If the molar conductivity of a weak acid HA at concentration 0.01 M is 19.5 S cm2 mol-1 and its limiting molar conductivity Lambda\u00b0_m is 390 S cm2 mol-1, its dissociation constant Ka is:", "options": [{"marker": "A", "text": "2.63 * 10^-5 mol L-1"}, {"marker": "B", "text": "1.0 * 10^-4 mol L-1"}, {"marker": "C", "text": "5.0 * 10^-3 mol L-1"}, {"marker": "D", "text": "2.5 * 10^-5 mol L-1"}], "answerIndex": 3, "explanation": "alpha = Lambda_m / Lambda\u00b0_m = 19.5 / 390 = 0.05. Ka = (c * alpha^2) / (1 - alpha) = (0.01 * 0.0025) / 0.95 = 2.5 * 10^-5 / 0.95 = 2.63 * 10^-5 mol L-1 (approx 2.5-2.6 * 10^-5)."}, {"num": 45, "topic": "Batteries & Corrosion", "tag": "KCET PYQ", "stem": "Which of the following metals is used for cathodic protection (sacrificial anode) to prevent corrosion of underground iron pipes?", "options": [{"marker": "A", "text": "Magnesium or Zinc"}, {"marker": "B", "text": "Copper"}, {"marker": "C", "text": "Silver"}, {"marker": "D", "text": "Lead"}], "answerIndex": 0, "explanation": "Magnesium and zinc have more negative standard reduction potentials than iron (E\u00b0_Mg2+/Mg = -2.37 V vs E\u00b0_Fe2+/Fe = -0.44 V). When connected to iron pipes, they act as sacrificial anodes, corroding preferentially."}];
+    const NEET_DATA = [{"num": 1, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2024 May (Code 12)", "stem": "Calculate the emf of the half-cell given below at 298 K:\nPt(s) | H2 (g, 2 atm) | HCl (aq, 0.02 M)\nGiven: E\u00b0(H+/H2) = 0 V, (2.303 RT/F) = 0.059, log 2 = 0.3010", "options": [{"marker": "A", "text": "+0.109 V"}, {"marker": "B", "text": "+0.035 V"}, {"marker": "C", "text": "-0.035 V"}, {"marker": "D", "text": "-0.109 V"}], "answerIndex": 3, "explanation": "Reduction half-reaction: 2 H+(aq) + 2 e- -> H2(g). By Nernst equation: E = E\u00b0 - (0.059/2) * log(p_H2 / [H+]^2). Here p_H2 = 2 atm, [H+] = 0.02 M = 2 * 10^-2 M. [H+]^2 = 4 * 10^-4. p_H2 / [H+]^2 = 2 / (4 * 10^-4) = 0.5 * 10^4 = 5000. log(5000) = log(10000 / 2) = 4 - log 2 = 4 - 0.3010 = 3.699. E = 0 - (0.059 / 2) * 3.699 = -0.0295 * 3.699 = -0.109 V."}, {"num": 2, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2024 May (Code 12)", "stem": "A solution of copper sulphate is electrolysed for 10 minutes with a current of 1.5 amperes. The mass of copper deposited at the cathode is:\n(Given: Molar mass of Cu = 63 g mol-1; 1 F = 96487 C mol-1)", "options": [{"marker": "A", "text": "2.4036 g"}, {"marker": "B", "text": "1.7018 g"}, {"marker": "C", "text": "0.5876 g"}, {"marker": "D", "text": "0.2938 g"}], "answerIndex": 3, "explanation": "Time t = 10 min = 600 s. Current I = 1.5 A. Total charge Q = I * t = 1.5 * 600 = 900 C. Cu2+ + 2 e- -> Cu. Mass of Cu deposited m = (M * Q) / (n * F) = (63 * 900) / (2 * 96487) = 56700 / 192974 = 0.2938 g."}, {"num": 3, "topic": "Electrochemical Cells & Nernst Equation", "tag": "Re-NEET 2026 (Code 50)", "stem": "The standard electrode potential (E\u00b0) for the half-cell reaction Fe3+ + e- -> Fe2+ at 298 K is:\nGiven: E\u00b0(Fe3+/Fe) = -0.04 V and E\u00b0(Fe2+/Fe) = -0.44 V at 298 K", "options": [{"marker": "A", "text": "+0.40 V"}, {"marker": "B", "text": "+0.76 V"}, {"marker": "C", "text": "-0.48 V"}, {"marker": "D", "text": "+0.92 V"}], "answerIndex": 1, "explanation": "Using Gibbs free energy: Delta G\u00b0 = -n F E\u00b0. (1) Fe3+ + 3 e- -> Fe, Delta G\u00b01 = -3 * F * (-0.04) = +0.12 F. (2) Fe2+ + 2 e- -> Fe, Delta G\u00b02 = -2 * F * (-0.44) = +0.88 F. Target reaction: Fe3+ + e- -> Fe2+, which is (1) - (2). Delta G\u00b03 = Delta G\u00b01 - Delta G\u00b02 = 0.12 F - 0.88 F = -0.76 F. Since Delta G\u00b03 = -1 * F * E\u00b03 -> -0.76 F = -F * E\u00b03 -> E\u00b03 = +0.76 V."}, {"num": 4, "topic": "Conductance & Kohlrausch's Law", "tag": "Re-NEET 2026 (Code 50)", "stem": "For a salt XY, which is a strong electrolyte, the plot of Lambda_m versus sqrt(c) has a slope of -90.0 S cm2 mol^(-3/2) L^(1/2) at 298 K. At 0.01 M concentration of XY, the value of Lambda_m is 145.0 S cm2 mol-1. The limiting molar conductivity of Y- ion (lambda\u00b0_Y-, in S cm2 mol-1) at 298 K will be:\n(Given: lambda\u00b0_X+ = 74.0 S cm2 mol-1)", "options": [{"marker": "A", "text": "80.0"}, {"marker": "B", "text": "100.0"}, {"marker": "C", "text": "90.0"}, {"marker": "D", "text": "76.0"}], "answerIndex": 0, "explanation": "Debye-H\u00fcckel-Onsager equation: Lambda_m = Lambda\u00b0_m - A * sqrt(c). Here slope = -A = -90.0, so A = 90.0. At c = 0.01 M, sqrt(c) = 0.1. 145.0 = Lambda\u00b0_m - 90.0 * 0.1 = Lambda\u00b0_m - 9.0. Thus, Lambda\u00b0_m(XY) = 145.0 + 9.0 = 154.0 S cm2 mol-1. By Kohlrausch's law: Lambda\u00b0_m(XY) = lambda\u00b0_X+ + lambda\u00b0_Y- -> 154.0 = 74.0 + lambda\u00b0_Y- -> lambda\u00b0_Y- = 154.0 - 74.0 = 80.0 S cm2 mol-1."}, {"num": 5, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2025", "stem": "The molar conductivities at infinite dilution (Lambda\u00b0_m) for Ba(OH)2, BaCl2, and NH4Cl are 523.28, 280.0, and 129.8 S cm2 mol-1 respectively. The value of Lambda\u00b0_m for NH4OH is:", "options": [{"marker": "A", "text": "251.44 S cm2 mol-1"}, {"marker": "B", "text": "502.88 S cm2 mol-1"}, {"marker": "C", "text": "177.36 S cm2 mol-1"}, {"marker": "D", "text": "373.28 S cm2 mol-1"}], "answerIndex": 0, "explanation": "By Kohlrausch's law: Lambda\u00b0_m(NH4OH) = Lambda\u00b0_m(NH4Cl) + 1/2 * Lambda\u00b0_m(Ba(OH)2) - 1/2 * Lambda\u00b0_m(BaCl2) = 129.8 + 1/2 * 523.28 - 1/2 * 280.0 = 129.8 + 261.64 - 140.0 = 251.44 S cm2 mol-1."}, {"num": 6, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2025", "stem": "Given the standard electrode potentials: E\u00b0(K+/K) = -2.93 V, E\u00b0(Ag+/Ag) = +0.80 V, E\u00b0(Hg2+/Hg) = +0.79 V, E\u00b0(Mg2+/Mg) = -2.37 V, E\u00b0(Cr3+/Cr) = -0.74 V. The correct increasing order of their reducing power is:", "options": [{"marker": "A", "text": "Ag < Hg < Cr < Mg < K"}, {"marker": "B", "text": "K < Mg < Cr < Hg < Ag"}, {"marker": "C", "text": "Ag < Cr < Hg < Mg < K"}, {"marker": "D", "text": "Hg < Ag < Cr < K < Mg"}], "answerIndex": 0, "explanation": "Reducing power is inversely related to standard reduction potential (E\u00b0). Lower the E\u00b0, greater is the reducing power. Values: Ag (+0.80) < Hg (+0.79) < Cr (-0.74) < Mg (-2.37) < K (-2.93)."}, {"num": 7, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2024", "stem": "A cell has reaction: 2 Fe3+(aq) + 2 I-(aq) -> 2 Fe2+(aq) + I2(s) with E\u00b0_cell = 0.236 V at 298 K. The standard Gibbs energy change (Delta G\u00b0) for the cell reaction is: (Given 1 F = 96500 C mol-1)", "options": [{"marker": "A", "text": "-45.55 kJ mol-1"}, {"marker": "B", "text": "-22.77 kJ mol-1"}, {"marker": "C", "text": "+45.55 kJ mol-1"}, {"marker": "D", "text": "-91.10 kJ mol-1"}], "answerIndex": 0, "explanation": "Number of electrons transferred n = 2. Delta G\u00b0 = -n F E\u00b0_cell = -2 * 96500 C * 0.236 V = -45548 J mol-1 = -45.55 kJ mol-1."}, {"num": 8, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2024", "stem": "On passing a current through molten Al2O3, 9 g of aluminum is deposited at the cathode. The volume of oxygen gas liberated at STP at the anode is: [Atomic mass of Al = 27 g mol-1]", "options": [{"marker": "A", "text": "5.6 L"}, {"marker": "B", "text": "11.2 L"}, {"marker": "C", "text": "2.8 L"}, {"marker": "D", "text": "22.4 L"}], "answerIndex": 0, "explanation": "9 g of Al = 9 / 27 = 1/3 mol of Al. Reaction: Al3+ + 3 e- -> Al. 1/3 mol of Al requires (1/3) * 3 = 1 Faraday of charge. At anode: 2 O^2- -> O2 + 4 e-. 4 Faradays liberate 1 mol O2 = 22.4 L at STP. Therefore, 1 Faraday liberates 22.4 / 4 = 5.6 L of O2."}, {"num": 9, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2023", "stem": "The conductivity of 0.001028 mol L-1 acetic acid is 4.95 * 10^-5 S cm-1. If Lambda\u00b0_m for acetic acid is 390.5 S cm2 mol-1, its dissociation constant Ka is:", "options": [{"marker": "A", "text": "1.78 * 10^-5 mol L-1"}, {"marker": "B", "text": "2.45 * 10^-5 mol L-1"}, {"marker": "C", "text": "1.86 * 10^-4 mol L-1"}, {"marker": "D", "text": "3.56 * 10^-5 mol L-1"}], "answerIndex": 0, "explanation": "Lambda_m = (kappa * 1000) / c = (4.95 * 10^-5 * 1000) / 0.001028 = 48.15 S cm2 mol-1. alpha = Lambda_m / Lambda\u00b0_m = 48.15 / 390.5 = 0.1233. Ka = (c * alpha^2) / (1 - alpha) = (0.001028 * (0.1233)^2) / (1 - 0.1233) = 1.78 * 10^-5 mol L-1."}, {"num": 10, "topic": "Batteries & Corrosion", "tag": "NEET 2023", "stem": "Which of the following statements about fuel cells is correct?", "options": [{"marker": "A", "text": "They convert the energy of combustion of fuels directly into electrical energy"}, {"marker": "B", "text": "They operate with an efficiency of less than 30%"}, {"marker": "C", "text": "They produce harmful toxic exhaust gases"}, {"marker": "D", "text": "They require periodic recharging like secondary batteries"}], "answerIndex": 0, "explanation": "Fuel cells are galvanic cells designed to convert the energy of combustion of fuels like hydrogen, methane, or methanol directly into electrical energy with high thermodynamic efficiency (~70%) and eco-friendly by-products (H2O)."}, {"num": 11, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2022", "stem": "Find the emf of the cell in which the following reaction takes place at 298 K:\nNi(s) + 2 Ag+(0.001 M) -> Ni2+(0.001 M) + 2 Ag(s)\nGiven that E\u00b0_cell = 1.05 V and (2.303 RT/F) = 0.059 V", "options": [{"marker": "A", "text": "0.9615 V"}, {"marker": "B", "text": "1.05 V"}, {"marker": "C", "text": "1.1385 V"}, {"marker": "D", "text": "0.895 V"}], "answerIndex": 0, "explanation": "E_cell = E\u00b0_cell - (0.059/2) * log([Ni2+]/[Ag+]^2) = 1.05 - 0.0295 * log(10^-3 / (10^-3)^2) = 1.05 - 0.0295 * log(10^3) = 1.05 - 0.0295 * 3 = 1.05 - 0.0885 = 0.9615 V."}, {"num": 12, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2022", "stem": "The weight of silver displaced by a quantity of electricity which displaces 5600 mL of O2 at STP will be: [Atomic mass of Ag = 108]", "options": [{"marker": "A", "text": "108.0 g"}, {"marker": "B", "text": "54.0 g"}, {"marker": "C", "text": "27.0 g"}, {"marker": "D", "text": "10.8 g"}], "answerIndex": 0, "explanation": "At STP, 22400 mL of O2 = 1 mol = 4 Equivalents. Thus 5600 mL of O2 = 5600 / 5600 = 1 Equivalent of O2. By Faraday's second law, 1 equivalent of O2 = 1 equivalent of Ag deposited = 108 g."}, {"num": 13, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2021", "stem": "The molar conductance of NaCl, HCl, and CH3COONa at infinite dilution are 126.45, 426.16, and 91.0 S cm2 mol-1 respectively. The molar conductance of CH3COOH at infinite dilution is:", "options": [{"marker": "A", "text": "390.71 S cm2 mol-1"}, {"marker": "B", "text": "698.28 S cm2 mol-1"}, {"marker": "C", "text": "540.48 S cm2 mol-1"}, {"marker": "D", "text": "201.28 S cm2 mol-1"}], "answerIndex": 0, "explanation": "Lambda\u00b0_m(CH3COOH) = Lambda\u00b0_m(CH3COONa) + Lambda\u00b0_m(HCl) - Lambda\u00b0_m(NaCl) = 91.0 + 426.16 - 126.45 = 390.71 S cm2 mol-1."}, {"num": 14, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2020", "stem": "For a cell involving one electron: E\u00b0_cell = 0.59 V at 298 K, the equilibrium constant for the cell reaction is: [Take 2.303 RT/F = 0.059 V]", "options": [{"marker": "A", "text": "1.0 * 10^10"}, {"marker": "B", "text": "1.0 * 10^2"}, {"marker": "C", "text": "1.0 * 10^5"}, {"marker": "D", "text": "1.0 * 10^30"}], "answerIndex": 0, "explanation": "E\u00b0_cell = (0.059 / n) * log K -> 0.59 = (0.059 / 1) * log K -> log K = 10 -> K = 10^10 = 1.0 * 10^10."}, {"num": 15, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2020", "stem": "The number of Faradays required to produce 20 g of calcium from molten CaCl2 is: [Atomic mass of Ca = 40 g mol-1]", "options": [{"marker": "A", "text": "1 F"}, {"marker": "B", "text": "2 F"}, {"marker": "C", "text": "3 F"}, {"marker": "D", "text": "4 F"}], "answerIndex": 0, "explanation": "Moles of Ca = 20 / 40 = 0.5 mol. Since Ca2+ + 2 e- -> Ca, depositing 1 mole of Ca requires 2 F. Depositing 0.5 mole of Ca requires 0.5 * 2 = 1 F."}, {"num": 16, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2019", "stem": "Which of the following statements about molar conductivity is true?", "options": [{"marker": "A", "text": "Molar conductivity of both strong and weak electrolytes increases with decrease in concentration (dilution)"}, {"marker": "B", "text": "Molar conductivity decreases with dilution"}, {"marker": "C", "text": "Specific conductivity increases with dilution"}, {"marker": "D", "text": "Conductance is independent of temperature"}], "answerIndex": 0, "explanation": "Molar conductivity increases upon dilution for both strong electrolytes (due to decrease in interionic attractions) and weak electrolytes (due to increase in degree of dissociation alpha)."}, {"num": 17, "topic": "Batteries & Corrosion", "tag": "NEET 2019", "stem": "When a lead storage battery is discharged:", "options": [{"marker": "A", "text": "Sulfuric acid is consumed and its density decreases"}, {"marker": "B", "text": "Lead sulfate is consumed"}, {"marker": "C", "text": "Lead is formed at cathode"}, {"marker": "D", "text": "Sulfuric acid is regenerated"}], "answerIndex": 0, "explanation": "Overall discharge reaction: Pb(s) + PbO2(s) + 2 H2SO4(aq) -> 2 PbSO4(s) + 2 H2O(l). Sulfuric acid is consumed and water is produced, causing the density of H2SO4 solution to decrease from ~1.30 to below 1.20 g/mL."}, {"num": 18, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2018", "stem": "The standard electrode potentials for half-cells: E\u00b0(Zn2+/Zn) = -0.76 V, E\u00b0(Fe2+/Fe) = -0.44 V. The standard EMF of the cell Zn | Zn2+ || Fe2+ | Fe is:", "options": [{"marker": "A", "text": "+0.32 V"}, {"marker": "B", "text": "-0.32 V"}, {"marker": "C", "text": "+1.20 V"}, {"marker": "D", "text": "-1.20 V"}], "answerIndex": 0, "explanation": "E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = E\u00b0(Fe2+/Fe) - E\u00b0(Zn2+/Zn) = -0.44 V - (-0.76 V) = +0.32 V."}, {"num": 19, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2017", "stem": "In the electrolysis of aqueous sodium chloride solution, which of the following half-cell reactions occurs at the anode?", "options": [{"marker": "A", "text": "Cl-(aq) -> 1/2 Cl2(g) + e- (favored due to overpotential of oxygen)"}, {"marker": "B", "text": "2 H2O -> O2 + 4 H+ + 4 e- exclusively"}, {"marker": "C", "text": "Na+ + e- -> Na"}, {"marker": "D", "text": "2 OH- -> H2O + 1/2 O2 + 2 e-"}], "answerIndex": 0, "explanation": "Thermodynamically, oxidation of water (E\u00b0 = +1.23 V) is favored over oxidation of Cl- (E\u00b0 = +1.36 V). However, due to the high overpotential required for oxygen evolution, chloride ion oxidation to Cl2 gas is kinetically preferred."}, {"num": 20, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2016 Phase-I", "stem": "The pressure of H2 required to make the potential of a hydrogen electrode zero in pure water at 298 K is:", "options": [{"marker": "A", "text": "10^-14 atm"}, {"marker": "B", "text": "10^-12 atm"}, {"marker": "C", "text": "10^-10 atm"}, {"marker": "D", "text": "1 atm"}], "answerIndex": 0, "explanation": "In pure water, [H+] = 10^-7 M. Reaction: 2 H+ + 2 e- -> H2. E = E\u00b0 - (0.0591/2) * log(p_H2 / [H+]^2). For E = 0: log(p_H2 / [H+]^2) = 0 -> p_H2 = [H+]^2 = (10^-7)^2 = 10^-14 atm."}, {"num": 21, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2016 Phase-II", "stem": "At 25\u00b0C, the molar conductance of 0.1 molar aqueous solution of ammonium hydroxide is 9.54 S cm2 mol-1 and at infinite dilution its molar conductance is 238 S cm2 mol-1. The degree of ionisation of ammonium hydroxide at the same concentration and temperature is:", "options": [{"marker": "A", "text": "4.008%"}, {"marker": "B", "text": "40.8%"}, {"marker": "C", "text": "2.08%"}, {"marker": "D", "text": "20.8%"}], "answerIndex": 0, "explanation": "alpha = Lambda_m / Lambda\u00b0_m = 9.54 / 238 = 0.04008 -> % ionisation = 0.04008 * 100 = 4.008%."}, {"num": 22, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2015", "stem": "A device that converts energy of combustion of fuels like hydrogen and methane directly into electrical energy is known as:", "options": [{"marker": "A", "text": "Fuel cell"}, {"marker": "B", "text": "Electrolytic cell"}, {"marker": "C", "text": "Dynamo"}, {"marker": "D", "text": "Ni-Cd cell"}], "answerIndex": 0, "explanation": "Galvanic cells that directly convert the chemical energy of combustion of fuels (H2, CO, CH4) into electrical energy are called fuel cells."}, {"num": 23, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2015", "stem": "The standard reduction potentials for Cu2+/Cu and Cu+/Cu are +0.337 V and +0.521 V respectively. The standard potential E\u00b0 for Cu2+/Cu+ half-cell is:", "options": [{"marker": "A", "text": "+0.153 V"}, {"marker": "B", "text": "-0.153 V"}, {"marker": "C", "text": "+0.184 V"}, {"marker": "D", "text": "-0.184 V"}], "answerIndex": 0, "explanation": "Delta G\u00b0(Cu2+ -> Cu) = -2 * F * 0.337 = -0.674 F. Delta G\u00b0(Cu+ -> Cu) = -1 * F * 0.521 = -0.521 F. For Cu2+ + e- -> Cu+: Delta G\u00b0 = Delta G\u00b0(Cu2+->Cu) - Delta G\u00b0(Cu+->Cu) = -0.674 F - (-0.521 F) = -0.153 F. Since Delta G\u00b0 = -n F E\u00b0 -> E\u00b0 = +0.153 V."}, {"num": 24, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2014", "stem": "When 0.1 mol of MnO4^2- is oxidized in alkaline medium, the quantity of electricity required to completely convert it to MnO4^- is:", "options": [{"marker": "A", "text": "9650 C"}, {"marker": "B", "text": "96500 C"}, {"marker": "C", "text": "2 * 96500 C"}, {"marker": "D", "text": "96.50 C"}], "answerIndex": 0, "explanation": "Reaction: MnO4^2- -> MnO4^- + e-. 1 mole of manganate requires 1 mole of electrons (96500 C). Thus 0.1 mole requires 0.1 * 96500 = 9650 C."}, {"num": 25, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2013", "stem": "A button cell used in watches functions as following:\nZn(s) + Ag2O(s) + H2O(l) <-> 2 Ag(s) + Zn2+(aq) + 2 OH-(aq)\nIf half-cell potentials are: Zn2+ + 2 e- -> Zn (E\u00b0 = -0.76 V) and Ag2O + H2O + 2 e- -> 2 Ag + 2 OH- (E\u00b0 = +0.34 V), the E\u00b0_cell is:", "options": [{"marker": "A", "text": "1.10 V"}, {"marker": "B", "text": "0.42 V"}, {"marker": "C", "text": "-0.42 V"}, {"marker": "D", "text": "-1.10 V"}], "answerIndex": 0, "explanation": "E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = E\u00b0(Ag2O/Ag) - E\u00b0(Zn2+/Zn) = +0.34 V - (-0.76 V) = +1.10 V."}, {"num": 26, "topic": "Batteries & Corrosion", "tag": "AIPMT 2012 Mains", "stem": "In corrosion of iron, the reduction takes place at the cathode by:", "options": [{"marker": "A", "text": "Reduction of dissolved oxygen in the presence of H+ ions"}, {"marker": "B", "text": "Reduction of Fe2+ to Fe"}, {"marker": "C", "text": "Oxidation of water to O2"}, {"marker": "D", "text": "Reduction of H2 to H+"}], "answerIndex": 0, "explanation": "At the cathodic area during rusting: O2(g) + 4 H+(aq) + 4 e- -> 2 H2O(l) (E\u00b0 = +1.23 V)."}, {"num": 27, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2012 Prelims", "stem": "Molar conductivities at infinite dilution of KCl, KNO3 and AgNO3 are 149.9, 145.0 and 133.4 S cm2 mol-1 respectively. The molar conductivity of AgCl at infinite dilution is:", "options": [{"marker": "A", "text": "138.3 S cm2 mol-1"}, {"marker": "B", "text": "128.5 S cm2 mol-1"}, {"marker": "C", "text": "120.0 S cm2 mol-1"}, {"marker": "D", "text": "130.2 S cm2 mol-1"}], "answerIndex": 0, "explanation": "Lambda\u00b0_m(AgCl) = Lambda\u00b0_m(AgNO3) + Lambda\u00b0_m(KCl) - Lambda\u00b0_m(KNO3) = 133.4 + 149.9 - 145.0 = 138.3 S cm2 mol-1."}, {"num": 28, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2011", "stem": "If 0.5 amp current is passed through acidified water for 30 minutes, the volume of H2 gas liberated at STP is:", "options": [{"marker": "A", "text": "104.5 mL"}, {"marker": "B", "text": "209 mL"}, {"marker": "C", "text": "52.2 mL"}, {"marker": "D", "text": "418 mL"}], "answerIndex": 0, "explanation": "Q = I * t = 0.5 * (30 * 60) = 900 C. 2 H+ + 2 e- -> H2. 2 * 96500 C produces 22400 mL H2. Volume = (22400 * 900) / (2 * 96500) = 104.45 mL."}, {"num": 29, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2010", "stem": "Given that standard reduction potentials are: Fe3+/Fe2+ = +0.77 V, I2/I- = +0.54 V, Cu2+/Cu = +0.34 V, Ag+/Ag = +0.80 V. Which of the following reactions will NOT occur spontaneously under standard conditions?", "options": [{"marker": "A", "text": "2 Fe3+ + 2 I- -> 2 Fe2+ + I2"}, {"marker": "B", "text": "Cu + 2 Ag+ -> Cu2+ + 2 Ag"}, {"marker": "C", "text": "2 Ag + Cu2+ -> 2 Ag+ + Cu"}, {"marker": "D", "text": "Cu + 2 Fe3+ -> Cu2+ + 2 Fe2+"}], "answerIndex": 2, "explanation": "For 2 Ag + Cu2+ -> 2 Ag+ + Cu: E\u00b0_cell = E\u00b0(Cu2+/Cu) - E\u00b0(Ag+/Ag) = +0.34 V - (+0.80 V) = -0.46 V. Since E\u00b0_cell is negative, the reaction is non-spontaneous."}, {"num": 30, "topic": "Batteries & Corrosion", "tag": "AIPMT 2009", "stem": "The efficiency of a fuel cell is given by the expression:", "options": [{"marker": "A", "text": "eta = (Delta G / Delta H) * 100"}, {"marker": "B", "text": "eta = (Delta H / Delta G) * 100"}, {"marker": "C", "text": "eta = (Delta G / Delta S) * 100"}, {"marker": "D", "text": "eta = (Delta S / Delta H) * 100"}], "answerIndex": 0, "explanation": "Thermodynamic efficiency of a fuel cell is defined as the ratio of maximum useful electrical work (Delta G) to the total heat of combustion (Delta H): eta = (Delta G / Delta H) * 100."}, {"num": 31, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2008", "stem": "Kohlrausch's law of independent migration of ions states that:", "options": [{"marker": "A", "text": "Limiting molar conductivity of an electrolyte can be represented as the sum of individual contributions of the anion and cation of the electrolyte"}, {"marker": "B", "text": "Conductivity decreases linearly with dilution"}, {"marker": "C", "text": "Equivalent conductivity is independent of ion concentration"}, {"marker": "D", "text": "All ions migrate with the exact same velocity"}], "answerIndex": 0, "explanation": "Kohlrausch's law states that at infinite dilution, each ion makes a definite independent contribution towards molar conductivity of electrolyte regardless of the nature of the other co-ion."}, {"num": 32, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2007", "stem": "How many coulombs are required for the oxidation of 1 mol of H2O to O2?", "options": [{"marker": "A", "text": "1.93 * 10^5 C"}, {"marker": "B", "text": "9.65 * 10^4 C"}, {"marker": "C", "text": "3.86 * 10^5 C"}, {"marker": "D", "text": "4.82 * 10^4 C"}], "answerIndex": 0, "explanation": "H2O -> 1/2 O2 + 2 H+ + 2 e-. Oxidation of 1 mole of H2O releases 2 moles of electrons = 2 Faradays = 2 * 96500 C = 1.93 * 10^5 C."}, {"num": 33, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2006", "stem": "For the half-cell reaction at 298 K: Cu2+(aq) + 2 e- -> Cu(s), if the concentration of Cu2+ is 0.1 M, what is the reduction potential? (Given E\u00b0 = +0.34 V)", "options": [{"marker": "A", "text": "+0.31 V"}, {"marker": "B", "text": "+0.37 V"}, {"marker": "C", "text": "+0.34 V"}, {"marker": "D", "text": "+0.28 V"}], "answerIndex": 0, "explanation": "E = E\u00b0 - (0.0591 / 2) * log(1 / [Cu2+]) = 0.34 - 0.0295 * log(1 / 0.1) = 0.34 - 0.0295 * 1 = +0.3105 V."}, {"num": 34, "topic": "Batteries & Corrosion", "tag": "AIPMT 2005", "stem": "Which of the following processes represents prevention of corrosion by barrier protection?", "options": [{"marker": "A", "text": "Applying paint, oil, grease, or electroplating with non-corroding metal"}, {"marker": "B", "text": "Connecting iron to a magnesium block"}, {"marker": "C", "text": "Exposing iron to acidic rainwater"}, {"marker": "D", "text": "Using an iron-copper couple"}], "answerIndex": 0, "explanation": "Barrier protection prevents physical contact of iron metal surface with air, moisture, and oxygen by painting, greasing, or coating with unreactive metals."}, {"num": 35, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2004", "stem": "The resistance of a conductivity cell filled with 0.1 M KCl solution is 100 ohm. If the resistance of the same cell when filled with 0.02 M KCl solution is 520 ohm, calculate the conductivity of 0.02 M KCl solution. (Given conductivity of 0.1 M KCl is 1.29 S m-1)", "options": [{"marker": "A", "text": "0.248 S m-1"}, {"marker": "B", "text": "0.124 S m-1"}, {"marker": "C", "text": "0.496 S m-1"}, {"marker": "D", "text": "1.29 S m-1"}], "answerIndex": 0, "explanation": "Cell constant G* = R * kappa = 100 ohm * 1.29 S m-1 = 129 m-1. For 0.02 M solution: kappa = G* / R = 129 / 520 = 0.248 S m-1."}, {"num": 36, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2003", "stem": "When an electric current is passed through an aqueous solution of CuSO4 using copper electrodes, the reaction at anode is:", "options": [{"marker": "A", "text": "Cu(s) -> Cu2+(aq) + 2 e-"}, {"marker": "B", "text": "2 H2O -> O2 + 4 H+ + 4 e-"}, {"marker": "C", "text": "SO4^2- is oxidized"}, {"marker": "D", "text": "Cu2+ + 2 e- -> Cu"}], "answerIndex": 0, "explanation": "When attackable copper electrodes are used, the copper anode itself dissolves preferentially because copper oxidation (E\u00b0 = -0.34 V) requires less potential than oxidation of water (E\u00b0 = -1.23 V)."}, {"num": 37, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2002", "stem": "Standard electrode potentials are: Fe2+/Fe = -0.44 V, Fe3+/Fe2+ = +0.77 V. If Fe2+, Fe3+ and Fe blocks are kept together, then:", "options": [{"marker": "A", "text": "Fe3+ will be reduced to Fe2+ and Fe will be oxidised to Fe2+"}, {"marker": "B", "text": "Fe2+ will disproportionate into Fe and Fe3+"}, {"marker": "C", "text": "Fe3+ will increase in concentration"}, {"marker": "D", "text": "No reaction will take place"}], "answerIndex": 0, "explanation": "Reaction: 2 Fe3+ + Fe -> 3 Fe2+. E\u00b0_cell = E\u00b0(Fe3+/Fe2+) - E\u00b0(Fe2+/Fe) = +0.77 V - (-0.44 V) = +1.21 V > 0. The reaction is spontaneous; Fe3+ and Fe comproportionate to form Fe2+."}, {"num": 38, "topic": "Batteries & Corrosion", "tag": "AIPMT 2001", "stem": "The overall cell reaction in a mercury battery is Zn(Hg) + HgO(s) -> ZnO(s) + Hg(l). The cell potential is 1.35 V. What is the value of E\u00b0_cell?", "options": [{"marker": "A", "text": "1.35 V"}, {"marker": "B", "text": "2.70 V"}, {"marker": "C", "text": "0.67 V"}, {"marker": "D", "text": "0.00 V"}], "answerIndex": 0, "explanation": "Because no ion concentrations change during the operation of a mercury cell, E_cell = E\u00b0_cell = 1.35 V throughout its active lifespan."}, {"num": 39, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2000", "stem": "Which of the following statements is FALSE regarding the conductivity of electrolytic solutions?", "options": [{"marker": "A", "text": "Conductivity increases with increase in temperature"}, {"marker": "B", "text": "Molar conductivity increases upon dilution"}, {"marker": "C", "text": "Specific conductivity increases upon dilution"}, {"marker": "D", "text": "Conductivity depends on the nature of solvent and viscosity"}], "answerIndex": 2, "explanation": "Specific conductivity (kappa) decreases on dilution because the number of ions per unit volume decreases."}, {"num": 40, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2024", "stem": "The standard reduction potentials for E\u00b0(Sn4+/Sn2+) and E\u00b0(Cr3+/Cr) are +0.15 V and -0.74 V respectively. The standard cell potential E\u00b0_cell for the cell reaction: 3 Sn4+ + 2 Cr -> 3 Sn2+ + 2 Cr3+ is:", "options": [{"marker": "A", "text": "+0.89 V"}, {"marker": "B", "text": "-0.89 V"}, {"marker": "C", "text": "+0.59 V"}, {"marker": "D", "text": "-0.59 V"}], "answerIndex": 0, "explanation": "Cathode: Sn4+ + 2 e- -> Sn2+ (E\u00b0 = +0.15 V). Anode: Cr -> Cr3+ + 3 e- (E\u00b0 = -0.74 V). E\u00b0_cell = E\u00b0_cathode - E\u00b0_anode = +0.15 - (-0.74) = +0.89 V."}, {"num": 41, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2023", "stem": "When electric current is passed through acidified water, 112 mL of hydrogen gas is collected at cathode at STP. The amount of charge passed is:", "options": [{"marker": "A", "text": "965 C"}, {"marker": "B", "text": "1930 C"}, {"marker": "C", "text": "482.5 C"}, {"marker": "D", "text": "96.5 C"}], "answerIndex": 0, "explanation": "At STP, 22400 mL H2 = 1 mol = 2 Faradays = 2 * 96500 C. For 112 mL of H2: Q = (2 * 96500 * 112) / 22400 = 965 C."}, {"num": 42, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2022", "stem": "In the Kohlrausch equation Lambda_m = Lambda\u00b0_m - A * sqrt(c), the constant A depends on:", "options": [{"marker": "A", "text": "Type of electrolyte (stoichiometric charges on cation and anion), solvent, and temperature"}, {"marker": "B", "text": "Only concentration of the electrolyte"}, {"marker": "C", "text": "Area of electrodes only"}, {"marker": "D", "text": "Distance between electrodes"}], "answerIndex": 0, "explanation": "The value of constant A depends on the type of electrolyte (e.g. 1-1, 1-2, 2-2 electrolytes), nature of the solvent, and temperature."}, {"num": 43, "topic": "Batteries & Corrosion", "tag": "NEET 2021", "stem": "Which of the following reactions occurs at the anode during the discharge of a nickel-cadmium battery?", "options": [{"marker": "A", "text": "Cd(s) + 2 OH-(aq) -> Cd(OH)2(s) + 2 e-"}, {"marker": "B", "text": "2 Ni(OH)3(s) + 2 e- -> 2 Ni(OH)2(s) + 2 OH-(aq)"}, {"marker": "C", "text": "Cd(OH)2(s) + 2 e- -> Cd(s) + 2 OH-"}, {"marker": "D", "text": "Ni(OH)2 -> Ni(OH)3 + e-"}], "answerIndex": 0, "explanation": "In a Ni-Cd battery during discharge, cadmium is oxidized at the anode: Cd(s) + 2 OH-(aq) -> Cd(OH)2(s) + 2 e-. At the cathode, NiO2 / Ni(OH)3 is reduced to Ni(OH)2."}, {"num": 44, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2020", "stem": "The standard reduction potential for Li+/Li is -3.05 V, while for F2/F- it is +2.87 V. This implies that:", "options": [{"marker": "A", "text": "Li is the strongest reducing agent and F2 is the strongest oxidising agent"}, {"marker": "B", "text": "Li+ is the strongest reducing agent"}, {"marker": "C", "text": "F- is the strongest oxidising agent"}, {"marker": "D", "text": "Li oxidises F2 spontaneously"}], "answerIndex": 0, "explanation": "Lowest reduction potential (-3.05 V) indicates that Li metal has the highest tendency to lose electrons (strongest reducing agent). Highest potential (+2.87 V) indicates F2 has the highest tendency to gain electrons (strongest oxidising agent)."}, {"num": 45, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2019", "stem": "If the resistance of a 0.01 M solution of an electrolyte is 200 ohm at 298 K and cell constant is 1.0 cm-1, the molar conductivity of the solution is:", "options": [{"marker": "A", "text": "500 S cm2 mol-1"}, {"marker": "B", "text": "200 S cm2 mol-1"}, {"marker": "C", "text": "50 S cm2 mol-1"}, {"marker": "D", "text": "5 * 10^-3 S cm2 mol-1"}], "answerIndex": 0, "explanation": "kappa = G* / R = 1.0 / 200 = 0.005 S cm-1. Lambda_m = (kappa * 1000) / M = (0.005 * 1000) / 0.01 = 5 / 0.01 = 500 S cm2 mol-1."}, {"num": 46, "topic": "Faraday's Laws of Electrolysis", "tag": "NEET 2018", "stem": "How many moles of electrons are required to produce 2.4 g of Mg from molten MgCl2? [Atomic mass of Mg = 24]", "options": [{"marker": "A", "text": "0.2 mol"}, {"marker": "B", "text": "0.1 mol"}, {"marker": "C", "text": "0.4 mol"}, {"marker": "D", "text": "0.05 mol"}], "answerIndex": 0, "explanation": "Moles of Mg = 2.4 / 24 = 0.1 mol. Mg2+ + 2 e- -> Mg. 1 mol Mg requires 2 mol electrons. 0.1 mol Mg requires 0.1 * 2 = 0.2 mol of electrons."}, {"num": 47, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2017", "stem": "The Nernst equation for the electrode reaction M^n+(aq) + n e- -> M(s) at temperature T is:", "options": [{"marker": "A", "text": "E = E\u00b0 - (RT / nF) * ln(1 / [M^n+])"}, {"marker": "B", "text": "E = E\u00b0 + (RT / nF) * ln(1 / [M^n+])"}, {"marker": "C", "text": "E = E\u00b0 - (nF / RT) * ln[M^n+]"}, {"marker": "D", "text": "E = E\u00b0 - (RT / nF) * log[M^n+]"}], "answerIndex": 0, "explanation": "Since activity of pure solid metal [M(s)] = 1, reaction quotient Q = 1 / [M^n+]. Hence: E = E\u00b0 - (RT / nF) * ln(1 / [M^n+]) = E\u00b0 + (RT / nF) * ln[M^n+]."}, {"num": 48, "topic": "Batteries & Corrosion", "tag": "NEET 2016 Phase-I", "stem": "Which of the following acts as the depolarizer in a Leclanch\u00e9 dry cell, preventing buildup of hydrogen gas?", "options": [{"marker": "A", "text": "Manganese dioxide (MnO2)"}, {"marker": "B", "text": "Ammonium chloride"}, {"marker": "C", "text": "Zinc chloride"}, {"marker": "D", "text": "Potassium hydroxide"}], "answerIndex": 0, "explanation": "MnO2 acts as a depolarizer. It oxidizes hydrogen generated during cathodic reduction to water, preventing polarization."}, {"num": 49, "topic": "Conductance & Kohlrausch's Law", "tag": "NEET 2015", "stem": "The limiting molar conductivities of NH4+, Na+, Cl-, and OH- are 73.4, 50.1, 76.3, and 198.6 S cm2 mol-1 respectively. The limiting molar conductivity of NH4OH is:", "options": [{"marker": "A", "text": "272.0 S cm2 mol-1"}, {"marker": "B", "text": "149.7 S cm2 mol-1"}, {"marker": "C", "text": "398.4 S cm2 mol-1"}, {"marker": "D", "text": "225.2 S cm2 mol-1"}], "answerIndex": 0, "explanation": "Lambda\u00b0_m(NH4OH) = lambda\u00b0(NH4+) + lambda\u00b0(OH-) = 73.4 + 198.6 = 272.0 S cm2 mol-1."}, {"num": 50, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2014", "stem": "A constant current was passed through two electrolytic cells connected in series containing solutions of AgNO3 and CuSO4. If 1.08 g of Ag is deposited, the mass of Cu deposited is: [Ag = 108, Cu = 63.5]", "options": [{"marker": "A", "text": "0.3175 g"}, {"marker": "B", "text": "0.635 g"}, {"marker": "C", "text": "1.27 g"}, {"marker": "D", "text": "0.158 g"}], "answerIndex": 0, "explanation": "By Faraday's second law: W_Ag / W_Cu = E_Ag / E_Cu. E_Ag = 108 / 1 = 108. E_Cu = 63.5 / 2 = 31.75. 1.08 / W_Cu = 108 / 31.75 -> W_Cu = (1.08 * 31.75) / 108 = 0.3175 g."}, {"num": 51, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2013", "stem": "The temperature coefficient of a cell (dE/dT)_p is related to standard entropy change (Delta S\u00b0) by:", "options": [{"marker": "A", "text": "Delta S\u00b0 = n * F * (dE\u00b0 / dT)_p"}, {"marker": "B", "text": "Delta S\u00b0 = -n * F * (dE\u00b0 / dT)_p"}, {"marker": "C", "text": "Delta S\u00b0 = (dE\u00b0 / dT)_p / nF"}, {"marker": "D", "text": "Delta S\u00b0 = nF / (dE\u00b0 / dT)_p"}], "answerIndex": 0, "explanation": "From thermodynamic relation (dDelta G / dT)_p = -Delta S, and since Delta G = -nFE, we get: -nF (dE / dT)_p = -Delta S -> Delta S = nF (dE / dT)_p."}, {"num": 52, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2012", "stem": "The unit of equivalent conductivity (Lambda_eq) is:", "options": [{"marker": "A", "text": "S cm2 (equiv)-1 or ohm-1 cm2 (equiv)-1"}, {"marker": "B", "text": "S cm-1"}, {"marker": "C", "text": "ohm cm (equiv)-1"}, {"marker": "D", "text": "S cm2 mol-1"}], "answerIndex": 0, "explanation": "Equivalent conductivity = kappa * 1000 / Normality = (S cm-1) * (cm3 / equiv) = S cm2 (equiv)-1."}, {"num": 53, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2011", "stem": "During electrolysis of an aqueous solution of sodium sulfate using platinum electrodes, the products obtained at cathode and anode are:", "options": [{"marker": "A", "text": "H2 at cathode and O2 at anode"}, {"marker": "B", "text": "Na at cathode and SO2 at anode"}, {"marker": "C", "text": "H2 at cathode and SO2 at anode"}, {"marker": "D", "text": "Na at cathode and O2 at anode"}], "answerIndex": 0, "explanation": "Neither Na+ is reduced (water reduces to H2 at cathode) nor SO4^2- is oxidized (water oxidizes to O2 at anode). Thus, water undergoes electrolysis: H2 at cathode, O2 at anode."}, {"num": 54, "topic": "Batteries & Corrosion", "tag": "AIPMT 2010", "stem": "Which of the following statements about rust (hydrated ferric oxide) is correct?", "options": [{"marker": "A", "text": "Its chemical formula is Fe2O3 . x H2O"}, {"marker": "B", "text": "It forms a tight protective impermeable film on iron surface"}, {"marker": "C", "text": "It is formed exclusively in the complete absence of oxygen"}, {"marker": "D", "text": "It has the formula FeO . H2O"}], "answerIndex": 0, "explanation": "Rust is hydrated ferric oxide, Fe2O3 . x H2O. It is porous and flakes off easily, exposing fresh underlying iron to continuous corrosion."}, {"num": 55, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2009", "stem": "Given: (1) Cu2+ + 2 e- -> Cu (E\u00b0 = 0.34 V) and (2) 2 Ag+ + 2 e- -> 2 Ag (E\u00b0 = 0.80 V). The equilibrium constant K for the reaction Cu + 2 Ag+ <-> Cu2+ + 2 Ag at 298 K is:", "options": [{"marker": "A", "text": "3.9 * 10^15"}, {"marker": "B", "text": "1.0 * 10^8"}, {"marker": "C", "text": "2.0 * 10^12"}, {"marker": "D", "text": "4.5 * 10^10"}], "answerIndex": 0, "explanation": "E\u00b0_cell = 0.80 - 0.34 = 0.46 V. log K = (2 * 0.46) / 0.0591 = 15.566 -> K = 10^15.566 = 3.9 * 10^15."}, {"num": 56, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2008", "stem": "Which of the following behaves as a weak electrolyte?", "options": [{"marker": "A", "text": "CH3COOH"}, {"marker": "B", "text": "KCl"}, {"marker": "C", "text": "NaCl"}, {"marker": "D", "text": "HCl"}], "answerIndex": 0, "explanation": "Acetic acid (CH3COOH) dissociates only partially in aqueous solution, exhibiting low degree of dissociation (alpha << 1) and behaving as a weak electrolyte."}, {"num": 57, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2007", "stem": "If 96500 coulombs of electricity is passed through a copper sulfate solution, the mass of copper deposited is:", "options": [{"marker": "A", "text": "31.75 g"}, {"marker": "B", "text": "63.5 g"}, {"marker": "C", "text": "127 g"}, {"marker": "D", "text": "15.87 g"}], "answerIndex": 0, "explanation": "Cu2+ + 2 e- -> Cu. 2 Faradays (2 * 96500 C) deposit 1 mole = 63.5 g. 1 Faraday (96500 C) deposits 63.5 / 2 = 31.75 g."}, {"num": 58, "topic": "Batteries & Corrosion", "tag": "AIPMT 2006", "stem": "Which of the following compounds is added to the electrolyte of lead storage batteries to lower the freezing point in cold regions?", "options": [{"marker": "A", "text": "Ethylene glycol"}, {"marker": "B", "text": "Methanol"}, {"marker": "C", "text": "Glycerol"}, {"marker": "D", "text": "Ethanol"}], "answerIndex": 0, "explanation": "Ethylene glycol is used as an antifreeze additive to depress the freezing point of water/battery fluids."}, {"num": 59, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2005", "stem": "For a galvanic cell, standard reduction potentials are E\u00b0(A+/A) = -0.5 V and E\u00b0(B+/B) = +0.8 V. When these electrodes are coupled, the spontaneous reaction is:", "options": [{"marker": "A", "text": "A + B+ -> A+ + B"}, {"marker": "B", "text": "A+ + B -> A + B+"}, {"marker": "C", "text": "A+ + B+ -> A + B"}, {"marker": "D", "text": "A + B -> A+ + B+"}], "answerIndex": 0, "explanation": "Metal A has lower reduction potential (-0.5 V), so A oxidizes (A -> A+ + e-). B+ has higher reduction potential (+0.8 V), so B+ reduces (B+ + e- -> B). Overall spontaneous reaction: A + B+ -> A+ + B with E\u00b0_cell = +0.8 - (-0.5) = +1.3 V."}, {"num": 60, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2004", "stem": "The resistance of 0.05 M solution of an electrolyte is 100 ohm. If the cell constant of the conductivity cell is 1.25 cm-1, the molar conductivity of the solution is:", "options": [{"marker": "A", "text": "250 S cm2 mol-1"}, {"marker": "B", "text": "125 S cm2 mol-1"}, {"marker": "C", "text": "500 S cm2 mol-1"}, {"marker": "D", "text": "50 S cm2 mol-1"}], "answerIndex": 0, "explanation": "kappa = G* / R = 1.25 / 100 = 0.0125 S cm-1. Lambda_m = (kappa * 1000) / M = (0.0125 * 1000) / 0.05 = 12.5 / 0.05 = 250 S cm2 mol-1."}, {"num": 61, "topic": "Faraday's Laws of Electrolysis", "tag": "AIPMT 2003", "stem": "The passage of current through an electrolyte is due to the movement of:", "options": [{"marker": "A", "text": "Ions (cations and anions)"}, {"marker": "B", "text": "Electrons only"}, {"marker": "C", "text": "Atoms only"}, {"marker": "D", "text": "Neutrons"}], "answerIndex": 0, "explanation": "Electrolytic conduction occurs via migration of solvated cations towards the cathode and anions towards the anode."}, {"num": 62, "topic": "Batteries & Corrosion", "tag": "AIPMT 2002", "stem": "Which element acts as a sacrificial anode to prevent underwater ship hull corrosion?", "options": [{"marker": "A", "text": "Zinc and Magnesium"}, {"marker": "B", "text": "Copper"}, {"marker": "C", "text": "Silver"}, {"marker": "D", "text": "Tin"}], "answerIndex": 0, "explanation": "Zinc and magnesium blocks attached to the hull of steel ships oxidize preferentially due to more negative reduction potentials, protecting the hull."}, {"num": 63, "topic": "Electrochemical Cells & Nernst Equation", "tag": "AIPMT 2001", "stem": "In the standard hydrogen electrode (SHE), the platinum black coating on the platinum foil serves to:", "options": [{"marker": "A", "text": "Provide high surface area for rapid adsorption of H2 gas and establish equilibrium"}, {"marker": "B", "text": "Prevent electrical conduction"}, {"marker": "C", "text": "Generate oxygen gas"}, {"marker": "D", "text": "Act as an electrical insulator"}], "answerIndex": 0, "explanation": "Finely divided platinum black provides a large effective surface area for adsorption of hydrogen gas, rapidly establishing dynamic equilibrium between H2(g) and H+(aq)."}, {"num": 64, "topic": "Conductance & Kohlrausch's Law", "tag": "AIPMT 2000", "stem": "As temperature increases, the electrolytic conductivity of an aqueous solution:", "options": [{"marker": "A", "text": "Increases due to increased ionic mobility and decreased solvent viscosity"}, {"marker": "B", "text": "Decreases linearly"}, {"marker": "C", "text": "Remains constant"}, {"marker": "D", "text": "Drops to zero"}], "answerIndex": 0, "explanation": "Unlike metallic conductors, electrolytic conductivity increases with temperature because kinetic energy increases, solvent viscosity decreases, and ionic mobility rises."}, {"num": 65, "topic": "Electrochemical Cells & Nernst Equation", "tag": "NEET 2024", "stem": "Given the standard electrode potentials: E\u00b0(Mg2+/Mg) = -2.36 V, E\u00b0(Cu2+/Cu) = +0.34 V. For the cell Mg | Mg2+(0.1 M) || Cu2+(0.01 M) | Cu at 298 K, the cell potential E_cell is: (Take 2.303 RT/F = 0.0591)", "options": [{"marker": "A", "text": "+2.67 V"}, {"marker": "B", "text": "+2.70 V"}, {"marker": "C", "text": "+2.73 V"}, {"marker": "D", "text": "+2.64 V"}], "answerIndex": 0, "explanation": "E\u00b0_cell = 0.34 - (-2.36) = 2.70 V. E_cell = 2.70 - (0.0591 / 2) * log([Mg2+] / [Cu2+]) = 2.70 - 0.02955 * log(0.1 / 0.01) = 2.70 - 0.02955 * log(10) = 2.70 - 0.02955 = +2.670 V."}];
+
+    const state = {
+      view: 'home',
+      mode: 'doc',
+      showAllAnswers: true,
+      searchQuery: '',
+      topicFilter: 'All',
+      kcetSelections: {},
+      neetSelections: {}
+    };
+
+    function switchView(viewName, defaultMode = null) {
+      state.view = viewName;
+      if (defaultMode) {
+        state.mode = defaultMode;
+      }
+      state.searchQuery = '';
+      state.topicFilter = 'All';
+
+      const homeView = document.getElementById('homeView');
+      const bankView = document.getElementById('bankView');
+      const notesView = document.getElementById('notesView');
+
+      const navHome = document.getElementById('navHomeBtn');
+      const navKcet = document.getElementById('navKcetBtn');
+      const navNeet = document.getElementById('navNeetBtn');
+      const navNotes = document.getElementById('navNotesBtn');
+
+      homeView.classList.add('hidden');
+      bankView.classList.add('hidden');
+      notesView.classList.add('hidden');
+
+      const navClassActive = 'px-3 py-1.5 rounded-lg bg-white text-amber-700 shadow-xs transition';
+      const navClassInactive = 'px-3 py-1.5 rounded-lg hover:text-slate-900 transition';
+
+      navHome.className = (viewName === 'home') ? navClassActive : navClassInactive;
+      navKcet.className = (viewName === 'kcet') ? navClassActive : navClassInactive;
+      navNeet.className = (viewName === 'neet') ? navClassActive : navClassInactive;
+      navNotes.className = (viewName === 'notes') ? navClassActive : navClassInactive;
+
+      if (viewName === 'home') {
+        homeView.classList.remove('hidden');
+        updateHomeStats();
+      } else if (viewName === 'notes') {
+        notesView.classList.remove('hidden');
+      } else if (viewName === 'kcet' || viewName === 'neet') {
+        bankView.classList.remove('hidden');
+        setupBankView();
+        renderActiveBank();
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function setupBankView() {
+      const isKcet = (state.view === 'kcet');
+      const bankTitle = document.getElementById('bankTitle');
+      const bankSubtitle = document.getElementById('bankSubtitle');
+
+      if (isKcet) {
+        bankTitle.textContent = "KCET Electrochemistry Question Bank (45 Questions)";
+        bankSubtitle.textContent = "Karnataka CET Biology (2014-2026, including 2025 & 2026)";
+      } else {
+        bankTitle.textContent = "NEET PYQ Electrochemistry Question Bank (65 Questions)";
+        bankSubtitle.textContent = "AIPMT & NEET National Entrance (2000-2026, including 2025 & 2026)";
+      }
+
+      const data = isKcet ? KCET_DATA : NEET_DATA;
+      const topics = ['All', ...new Set(data.map(q => q.topic))];
+      const pillsContainer = document.getElementById('topicFilterPills');
+      pillsContainer.innerHTML = topics.map(top => {
+        const active = (top === state.topicFilter);
+        return `<button type="button" class="top-pill px-2.5 py-1 rounded-full font-semibold transition ${active ? 'bg-amber-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'}" data-topic="${top}">${top}</button>`;
+      }).join('');
+
+      pillsContainer.querySelectorAll('.top-pill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.topicFilter = btn.getAttribute('data-topic');
+          setupBankView();
+          renderActiveBank();
+        });
+      });
+
+      const docBtn = document.getElementById('modeDocBtn');
+      const quizBtn = document.getElementById('modeQuizBtn');
+      const modeActive = 'px-3 py-1.5 rounded-lg bg-white text-amber-700 shadow-xs transition';
+      const modeInactive = 'px-3 py-1.5 rounded-lg hover:text-slate-900 transition';
+      docBtn.className = (state.mode === 'doc') ? modeActive : modeInactive;
+      quizBtn.className = (state.mode === 'quiz') ? modeActive : modeInactive;
+
+      const quizBanner = document.getElementById('quizBanner');
+      if (state.mode === 'quiz') {
+        quizBanner.classList.remove('hidden');
+        updateQuizBannerScore();
+      } else {
+        quizBanner.classList.add('hidden');
+      }
+    }
+
+    function getActiveDataset() {
+      return (state.view === 'kcet') ? KCET_DATA : NEET_DATA;
+    }
+
+    function getActiveSelections() {
+      return (state.view === 'kcet') ? state.kcetSelections : state.neetSelections;
+    }
+
+    function renderActiveBank() {
+      const data = getActiveDataset();
+      const selections = getActiveSelections();
+      const container = document.getElementById('questionsContainer');
+
+      const filtered = data.filter(q => {
+        const matchTopic = (state.topicFilter === 'All' || q.topic === state.topicFilter);
+        const matchSearch = (!state.searchQuery || 
+          q.stem.toLowerCase().includes(state.searchQuery.toLowerCase()) || 
+          q.tag.toLowerCase().includes(state.searchQuery.toLowerCase()) ||
+          q.topic.toLowerCase().includes(state.searchQuery.toLowerCase()) ||
+          q.explanation.toLowerCase().includes(state.searchQuery.toLowerCase())
+        );
+        return matchTopic && matchSearch;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="bg-white rounded-xl border border-slate-200 p-8 text-center text-slate-500 text-sm">
+            No questions matched your search or filter criteria.
+          </div>
+        `;
+        renderMatrix(data);
+        return;
+      }
+
+      container.innerHTML = filtered.map(q => renderQuestionCard(q, selections)).join('');
+      renderMatrix(data);
+      updateHomeStats();
+      if (state.mode === 'quiz') {
+        updateQuizBannerScore();
+      }
+    }
+
+    function renderQuestionCard(q, selections) {
+      const isQuiz = (state.mode === 'quiz');
+      const userSelected = selections[q.num];
+      const hasAnswered = (userSelected !== undefined);
+      const isCorrect = (userSelected === q.answerIndex);
+
+      const optionsHtml = q.options.map((opt, idx) => {
+        const isOptCorrect = (idx === q.answerIndex);
+        if (isQuiz) {
+          let btnClass = 'w-full text-left p-3 rounded-xl border text-xs sm:text-sm font-medium transition flex items-start gap-2.5 opt-btn ';
+          if (!hasAnswered) {
+            btnClass += 'border-slate-200 bg-white hover:bg-amber-50/50 hover:border-amber-300 text-slate-700';
+          } else if (idx === userSelected) {
+            if (isCorrect) {
+              btnClass += 'border-emerald-500 bg-emerald-50 text-emerald-950 font-bold';
+            } else {
+              btnClass += 'border-rose-500 bg-rose-50 text-rose-950 font-bold';
+            }
+          } else if (isOptCorrect) {
+            btnClass += 'border-emerald-500 bg-emerald-50/80 text-emerald-950 font-bold';
+          } else {
+            btnClass += 'border-slate-200 bg-slate-50 text-slate-400 opacity-60';
+          }
+
+          const badgeClass = (!hasAnswered) ? 'bg-slate-100 text-slate-700' :
+                             (idx === userSelected && isCorrect) ? 'bg-emerald-600 text-white' :
+                             (idx === userSelected && !isCorrect) ? 'bg-rose-600 text-white' :
+                             (isOptCorrect) ? 'bg-emerald-600 text-white' : 'bg-slate-200 text-slate-500';
+
+          return `
+            <button type="button" class="${btnClass}" data-qnum="${q.num}" data-optidx="${idx}" ${hasAnswered ? 'disabled' : ''}>
+              <span class="inline-flex items-center justify-center w-5 h-5 rounded-md text-xs font-bold shrink-0 ${badgeClass}">${opt.marker}</span>
+              <span class="leading-relaxed">${opt.text}</span>
+            </button>
+          `;
+        } else {
+          const showKey = state.showAllAnswers;
+          let optClass = 'p-2.5 rounded-xl border text-xs sm:text-sm flex items-start gap-2.5 ';
+          if (showKey && isOptCorrect) {
+            optClass += 'border-emerald-400 bg-emerald-50/60 font-semibold text-emerald-950';
+          } else {
+            optClass += 'border-slate-200 bg-white text-slate-700';
+          }
+          const badgeClass = (showKey && isOptCorrect) ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-slate-600';
+          return `
+            <div class="${optClass}">
+              <span class="inline-flex items-center justify-center w-5 h-5 rounded-md text-xs font-bold shrink-0 ${badgeClass}">${opt.marker}</span>
+              <span class="leading-relaxed">${opt.text}</span>
+            </div>
+          `;
+        }
+      }).join('');
+
+      let explanationHtml = '';
+      const shouldShowExplanation = (!isQuiz && state.showAllAnswers) || (isQuiz && hasAnswered);
+      if (shouldShowExplanation) {
+        const statusBadge = isQuiz ? (
+          isCorrect ? '<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold">Correct!</span>' :
+                      '<span class="px-2 py-0.5 rounded-full bg-rose-100 text-rose-800 text-[10px] font-bold">Incorrect</span>'
+        ) : '';
+
+        explanationHtml = `
+          <div class="mt-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700 space-y-1">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-bold text-slate-900">
+                Correct Answer: Option ${q.options[q.answerIndex].marker} &bull; ${q.options[q.answerIndex].text}
+              </span>
+              ${statusBadge}
+            </div>
+            <p class="leading-relaxed text-slate-600 mt-1">${q.explanation}</p>
+          </div>
+        `;
+      }
+
+      return `
+        <article id="q-${q.num}" class="q-card bg-white rounded-xl border border-slate-200 p-5 shadow-xs transition hover:border-slate-300">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
+            <div class="flex items-center gap-2">
+              <span class="inline-flex items-center justify-center px-2 py-0.5 rounded-md bg-amber-600 text-white text-xs font-bold">
+                Q${q.num}
+              </span>
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-xs font-semibold">
+                ${q.tag}
+              </span>
+            </div>
+            <span class="px-2 py-0.5 rounded-md bg-amber-50 text-amber-700 text-xs font-medium">
+              ${q.topic}
+            </span>
+          </div>
+
+          <h3 class="text-sm sm:text-base font-semibold text-slate-900 leading-relaxed mb-3">
+            ${q.stem.replace(/\n/g, '<br>')}
+          </h3>
+
+          <div class="space-y-2 mt-3">
+            ${optionsHtml}
+          </div>
+
+          ${explanationHtml}
+        </article>
+      `;
+    }
+
+    function renderMatrix(data) {
+      const selections = getActiveSelections();
+      const grid = document.getElementById('matrixGrid');
+      grid.innerHTML = data.map(q => {
+        const userSelected = selections[q.num];
+        const isAnswered = (userSelected !== undefined);
+        let statusClass = 'bg-slate-100 text-slate-700 hover:bg-slate-200 border-slate-200';
+        if (state.mode === 'quiz' && isAnswered) {
+          if (userSelected === q.answerIndex) {
+            statusClass = 'bg-emerald-600 text-white border-emerald-600';
+          } else {
+            statusClass = 'bg-rose-600 text-white border-rose-600';
+          }
+        } else if (state.mode === 'doc' && state.showAllAnswers) {
+          statusClass = 'bg-amber-50 text-amber-800 border-amber-200';
+        }
+        return `
+          <a href="#q-${q.num}" class="py-1 px-1 rounded border text-xs font-bold transition flex items-center justify-center gap-0.5 ${statusClass}" title="Q${q.num}: Ans ${q.options[q.answerIndex].marker}">
+            <span>Q${q.num}</span>
+            <span class="text-[10px] opacity-75">${q.options[q.answerIndex].marker}</span>
+          </a>
+        `;
+      }).join('');
+    }
+
+    function updateHomeStats() {
+      const kcetAnswered = Object.keys(state.kcetSelections).length;
+      let kcetCorrect = 0;
+      Object.keys(state.kcetSelections).forEach(qNum => {
+        const q = KCET_DATA.find(item => item.num === Number(qNum));
+        if (q && state.kcetSelections[qNum] === q.answerIndex) kcetCorrect++;
+      });
+      const kcetPct = kcetAnswered ? Math.round((kcetCorrect / kcetAnswered) * 100) : 0;
+      document.getElementById('statKcetProgress').textContent = `${kcetAnswered} / 45`;
+      document.getElementById('statKcetScore').textContent = `Score: ${kcetCorrect} correct (${kcetPct}%)`;
+
+      const neetAnswered = Object.keys(state.neetSelections).length;
+      let neetCorrect = 0;
+      Object.keys(state.neetSelections).forEach(qNum => {
+        const q = NEET_DATA.find(item => item.num === Number(qNum));
+        if (q && state.neetSelections[qNum] === q.answerIndex) neetCorrect++;
+      });
+      const neetPct = neetAnswered ? Math.round((neetCorrect / neetAnswered) * 100) : 0;
+      document.getElementById('statNeetProgress').textContent = `${neetAnswered} / 65`;
+      document.getElementById('statNeetScore').textContent = `Score: ${neetCorrect} correct (${neetPct}%)`;
+    }
+
+    function updateQuizBannerScore() {
+      const isKcet = (state.view === 'kcet');
+      const data = isKcet ? KCET_DATA : NEET_DATA;
+      const selections = isKcet ? state.kcetSelections : state.neetSelections;
+
+      const total = data.length;
+      const attempted = Object.keys(selections).length;
+      let correct = 0;
+      Object.keys(selections).forEach(qNum => {
+        const q = data.find(item => item.num === Number(qNum));
+        if (q && selections[qNum] === q.answerIndex) correct++;
+      });
+      const wrong = attempted - correct;
+      const accuracy = attempted ? Math.round((correct / attempted) * 100) : 0;
+
+      document.getElementById('quizTotal').textContent = total;
+      document.getElementById('quizAttempted').textContent = attempted;
+      document.getElementById('quizCorrect').textContent = correct;
+      document.getElementById('quizWrong').textContent = wrong;
+      document.getElementById('quizAccuracy').textContent = `${accuracy}%`;
+    }
+
+    document.getElementById('brandHomeBtn').addEventListener('click', () => switchView('home'));
+    document.getElementById('navHomeBtn').addEventListener('click', () => switchView('home'));
+    document.getElementById('navKcetBtn').addEventListener('click', () => switchView('kcet'));
+    document.getElementById('navNeetBtn').addEventListener('click', () => switchView('neet'));
+    document.getElementById('navNotesBtn').addEventListener('click', () => switchView('notes'));
+
+    document.getElementById('heroStartKcetBtn').addEventListener('click', () => switchView('kcet', 'doc'));
+    document.getElementById('heroStartNeetBtn').addEventListener('click', () => switchView('neet', 'doc'));
+    document.getElementById('heroOpenNotesBtn').addEventListener('click', () => switchView('notes'));
+
+    document.getElementById('cardKcetDocBtn').addEventListener('click', () => switchView('kcet', 'doc'));
+    document.getElementById('cardKcetQuizBtn').addEventListener('click', () => switchView('kcet', 'quiz'));
+    document.getElementById('cardNeetDocBtn').addEventListener('click', () => switchView('neet', 'doc'));
+    document.getElementById('cardNeetQuizBtn').addEventListener('click', () => switchView('neet', 'quiz'));
+
+    document.getElementById('backToPortalBtn').addEventListener('click', () => switchView('home'));
+    document.getElementById('notesBackHomeBtn').addEventListener('click', () => switchView('home'));
+
+    document.getElementById('questionsContainer').addEventListener('click', (e) => {
+      const btn = e.target.closest('.opt-btn');
+      if (!btn || state.mode !== 'quiz') return;
+      const qNum = Number(btn.getAttribute('data-qnum'));
+      const optIdx = Number(btn.getAttribute('data-optidx'));
+      if (state.view === 'kcet') {
+        state.kcetSelections[qNum] = optIdx;
+      } else if (state.view === 'neet') {
+        state.neetSelections[qNum] = optIdx;
+      }
+      renderActiveBank();
+    });
+
+    document.getElementById('modeDocBtn').addEventListener('click', () => switchView(state.view, 'doc'));
+    document.getElementById('modeQuizBtn').addEventListener('click', () => switchView(state.view, 'quiz'));
+
+    document.getElementById('toggleAnswersBtn').addEventListener('click', () => {
+      state.showAllAnswers = !state.showAllAnswers;
+      document.getElementById('toggleAnswersBtn').textContent = state.showAllAnswers ? 'Hide Answer Key' : 'Show Answer Key';
+      renderActiveBank();
+    });
+
+    document.getElementById('resetQuizBtn').addEventListener('click', () => {
+      if (state.view === 'kcet') {
+        state.kcetSelections = {};
+      } else if (state.view === 'neet') {
+        state.neetSelections = {};
+      }
+      renderActiveBank();
+    });
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      state.searchQuery = e.target.value;
+      renderActiveBank();
+    });
+
+    document.getElementById('printBtn').addEventListener('click', () => window.print());
+    document.getElementById('notesPrintBtn').addEventListener('click', () => window.print());
+
+    switchView('home');
+  </script>
+</body>
+</html>
